@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="School Management Portal for AryaGlobal">
+  <meta name="keywords" content="AryaGurukul, LittleAryans, StMaryHighSchool">
+  <meta name="author" content="ravimehra9911">
+  <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <!-- Title -->
+  <title>Fees - AryaGlobal</title>
+
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,800&display=swap" rel="stylesheet">
+  <link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet">
+  <link href="../../assets/plugins/perfectscroll/perfect-scrollbar.css" rel="stylesheet">
+
+  <!-- Theme Styles -->
+  <link href="../../assets/css/main.min.css" rel="stylesheet">
+  <link href="../../assets/css/custom.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <div class='loader'>
+    <div class='spinner-grow text-primary' role='status'>
+      <span class='sr-only'>Loading...</span>
+    </div>
+  </div>
+
+  <div class="page-container">
+    <div class="page-header">
+
+      <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+
+        <div class="" id="navbarNav">
+          <ul class="navbar-nav" id="leftNav">
+            <li class="nav-item">
+              <a class="nav-link" id="sidebar-toggle" href="#"><i data-feather="arrow-left"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="logo">
+          <a class="navbar-brand" href="index.html"></a>
+        </div>
+
+        <div class="" id="headerNav">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link profile-dropdown" href="#" id="profileDropDown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"><img src="../../assets/images/avatars/profile-image.png" alt=""></a>
+              <div class="dropdown-menu dropdown-menu-end profile-drop-menu" aria-labelledby="profileDropDown">
+                <a class="dropdown-item" href="ParentProfile.html"><i data-feather="user"></i>Profile</a>
+                <a class="dropdown-item" href="ParentLogin.html"><i data-feather="log-out"></i>Logout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+    </div>
+
+    <div class="page-sidebar">
+      <ul class="list-unstyled accordion-menu">
+        <li class="sidebar-title">
+          Main
+        </li>
+        <li>
+          <a href="#"><i data-feather="home"></i>Dashboard</a>
+        </li>
+        <li class="active-page">
+          <a href="Fee.html"><i data-feather="credit-card"></i>Fees</a>
+        </li>
+        <li>
+          <a href="index.html"><i data-feather="edit"></i>Form<i class="fas fa-chevron-right dropdown-icon"></i></a>
+          <ul class="">
+            <li><a href="#"><i class="far fa-circle"></i>Admission</a></li>
+            <li><a href="ConversionForm.html"><i class="far fa-circle"></i>Conversion</a></li>
+
+          </ul>
+        </li>
+
+        <li>
+          <a href="AddWard.html"><i data-feather="user-plus"></i>Add Ward</a>
+        </li>
+
+        <li>
+          <a href="ParentProfile.html"><i data-feather="user"></i>Profile</a>
+        </li>
+        <li>
+          <a href="ParentLogin.html"><i data-feather="log-out"></i>Logout</a>
+        </li>
+
+
+      </ul>
+    </div>
+
+    <div class="page-content">
+      <div class="main-wrapper">
+
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="card stat-widget">
+              <div class="card-body">
+                <div class="post-header">
+                  <img src="../../assets/images/avatars/profile-image.png" alt="">
+                  <div class="post-info">
+                    <span class="post-author">Child 1</span><br>
+                    <span class="post-date">2345</span>
+                  </div>
+                </div>
+                <br>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-warning">
+                        <i data-feather="check"></i>
+                      </div>
+                      <div class="tr-text">
+                        <h4>Payble</h4>
+                        <p>15/Jan/2023</p><br>
+                        <h3>₹18,200</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-outline-dark m-b-xs">Details</button>
+                <button type="button" class="btn btn-outline-success m-b-xs">Pay Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card stat-widget">
+              <div class="card-body">
+                <div class="post-header">
+                  <img src="../../assets/images/avatars/profile-image.png" alt="">
+                  <div class="post-info">
+                    <span class="post-author">Child 2</span><br>
+                    <span class="post-date">2345</span>
+                  </div>
+                </div>
+                <br>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-warning">
+                        <i data-feather="check"></i>
+                      </div>
+                      <div class="tr-text">
+                        <h4>Payble</h4>
+                        <p>15/Jan/2023</p><br>
+                        <h3>₹20,200</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-outline-dark m-b-xs">Details</button>
+                <button type="button" class="btn btn-outline-success m-b-xs">Pay Now</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <!-- 
+          <div class="col-md-4">
+            <div class="card stat-widget">
+              <div class="card-body">
+                <h5 class="card-title">Arrears</h5>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-danger">
+                        <i data-feather="alert-circle"></i>
+                      </div>
+                      <div class="tr-text">
+                        <a href="#">
+                          <h4>Payble</h4>
+                          <p>Last Session</p>
+                        </a>
+                        <h3>₹7,280</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-success">
+                        <i data-feather="alert-circle"></i>
+                      </div>
+                      <div class="tr-text">
+                        <a href="#">
+                          <h4>No Dues</h4>
+                          <p>Current Session</p>
+                        </a>
+                        <h3>₹0</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-sm btn-outline-dark m-b-xs">Add to Pay</button> 
+          <button type="button" class="btn btn-sm btn-outline-success m-b-xs">Paynow</button>
+
+        </div>
+      </div>
+    </div> -->
+
+          <div class="col-md-6">
+            <div class="card stat-widget">
+              <div class="card-body">
+                <h5 class="card-title">Ravi's Fee Overview</h5>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-warning">
+                        <i data-feather="user"></i>
+                      </div>
+                      <div class="tr-text">
+                        <a href="#">
+                          <h4>Total Fee</h4>
+                        </a>
+                        <p>₹27,550</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-success">
+                        <i data-feather="arrow-up-right"></i>
+                      </div>
+                      <div class="tr-text">
+                        <a href="#">
+                          <h4>Paid</h4>
+                        </a>
+                        <p>₹9,350</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-danger">
+                        <i data-feather="arrow-down-left"></i>
+                      </div>
+                      <div class="tr-text">
+                        <a href="#">
+                          <h4>Payble</h4>
+                        </a>
+                        <p> ₹18,200</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card stat-widget">
+              <div class="card-body">
+                <h5 class="card-title">Caution Money & Admission Fee</h5>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-success">
+                        <i data-feather="check"></i>
+                      </div>
+                      <div class="tr-text">
+                        <a href="#">
+                          <h4>Caution Money (Paid)</h4>
+                          <p>15/April/2021</p><br>
+                        </a>
+                        <h3>₹15,000</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-success">
+                        <i data-feather="check"></i>
+                      </div>
+                      <div class="tr-text">
+                        <a href="#">
+                          <h4>Admission Fee (Paid)</h4>
+                          <p>15/April/2021</p><br>
+                        </a>
+                        <h3>₹1,820</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <button type="button" class="btn btn-sm btn-outline-dark m-b-xs">Add to Pay</button> -->
+                <button type="button" class="btn btn-sm btn-outline-success m-b-xs">Paynow</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-4">
+            <div class="card stat-widget">
+              <div class="card-body">
+                <h5 class="card-title">Admission Fee</h5>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-success">
+                        <i data-feather="check"></i>
+                      </div>
+                      <div class="tr-text">
+                        <a href="#">
+                          <h4>Paid</h4>
+                          <p>15/April/2021</p><br>
+                        </a>
+                        <h3>₹1,820</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-sm btn-outline-dark m-b-xs">Add to Pay</button> 
+    <button type="button" class="btn btn-sm btn-outline-success m-b-xs">Paynow</button>
+  </div>
+  </div>
+  </div> -->
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="card stat-widget">
+              <div class="card-body">
+                <h5 class="card-title">Quarter 1</h5>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-success">
+                        <i data-feather="check"></i>
+                      </div>
+                      <div class="tr-text">
+                        <a href="#">
+                          <h4>Paid</h4>
+                          <p>15/April/2021</p><br>
+                        </a>
+                        <h3>₹6,230</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <!-- <div class="tr-icon tr-card-icon tr-card-bg-success">
+                        <i data-feather="check"></i>
+                      </div> -->
+                      <div class="tr-text">
+                        <p>Breakdown</p>
+
+                        <br>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox">
+                          <label class="form-check-label">
+                            Term Fee : ₹1820
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox">
+                          <label class="form-check-label">
+                            Apr22 Tution Fee : ₹1820
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox">
+                          <label class="form-check-label">
+                            May22 Tution Fee : ₹1820
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox">
+                          <label class="form-check-label">
+                            Jun22 Tution Fee : ₹1820
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox">
+                          <label class="form-check-label">
+                            Apr22 Library Fee : ₹250
+                          </label>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <button type="button" class="btn btn-sm btn-outline-dark m-b-xs">Add to Pay</button> -->
+                <!-- <button type="button" class="btn btn-sm btn-outline-success m-b-xs">Paynow</button> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="card stat-widget">
+              <div class="card-body">
+                <h5 class="card-title">Quarter 2</h5>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-warning">
+                        <i data-feather="check"></i>
+                      </div>
+                      <div class="tr-text">
+                        <a href="#">
+                          <h4>Payble</h4>
+                          <p>15/July/2022</p><br>
+                        </a>
+                        <h3>₹5,460</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <!-- <div class="tr-icon tr-card-icon tr-card-bg-success">
+                        <i data-feather="check"></i>
+                      </div> -->
+                      <div class="tr-text">
+                        <p>Breakdown</p>
+                        <br>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox">
+                          <label class="form-check-label">
+                            Jul22 Tution Fee : ₹1820
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox">
+                          <label class="form-check-label">
+                            Aug22 Tution Fee : ₹1820
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox">
+                          <label class="form-check-label">
+                            Sep22 Tution Fee : ₹1820
+                          </label>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <button onclick="disPaynow()" type="button" class="btn btn-sm btn-outline-dark m-b-xs">Add to
+                  Pay</button> -->
+                <!-- <button id="qtr2paynow" type="button" class="btn btn-sm btn-outline-success m-b-xs">Paynow</button> -->
+                <!-- <input onclick="disPaynow()" type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck1">Select to Pay</label> -->
+
+                <!-- <script>
+
+                  function disPaynow() {
+                    var qt2 = document.getElementById("qtr2paynow");
+                    // let classadd = ['disable', 'btn-outline-dark']
+                    qt2.classList.toggle("disabled");
+                    // qt2.classList.toggle("btn-outline-primary");
+                  }
+
+                </script> -->
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="card stat-widget">
+              <div class="card-body">
+                <h5 class="card-title">Quarter 3</h5>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-warning">
+                        <i data-feather="check"></i>
+                      </div>
+                      <div class="tr-text">
+                        <a href="#">
+                          <h4>Payble</h4>
+                          <p>15/Oct/2022</p><br>
+                        </a>
+                        <h3>₹7,280</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <!-- <div class="tr-icon tr-card-icon tr-card-bg-success">
+                        <i data-feather="check"></i>
+                      </div> -->
+                      <div class="tr-text">
+                        <p>Breakdown</p>
+                        <br>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox">
+                          <label class="form-check-label">
+                            Term Fee : ₹1820
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox">
+                          <label class="form-check-label">
+                            Oct22 Tution Fee : ₹1820
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox">
+                          <label class="form-check-label">
+                            Nov22 Tution Fee : ₹1820
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox">
+                          <label class="form-check-label">
+                            Dec22 Tution Fee : ₹1820
+                          </label>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <button type="button" class="btn btn-sm btn-outline-dark m-b-xs">Add to Pay</button> -->
+                <!-- <button type="button" class="btn btn-sm btn-outline-success m-b-xs">Paynow</button> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="card stat-widget">
+              <div class="card-body">
+                <h5 class="card-title">Quarter 4</h5>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-warning">
+                        <i data-feather="check"></i>
+                      </div>
+                      <div class="tr-text">
+                        <a href="#">
+                          <h4>Payble</h4>
+                          <p>15/Jan/2023</p><br>
+                        </a>
+                        <h3>₹5,460</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <!-- <div class="tr-icon tr-card-icon tr-card-bg-success">
+                        <i data-feather="check"></i>
+                      </div> -->
+                      <div class="tr-text">
+                        <p>Breakdown</p>
+                        <br>
+
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox">
+                          <label class="form-check-label">
+                            Jan23 Tution Fee : ₹1820
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox">
+                          <label class="form-check-label">
+                            Feb23 Tution Fee : ₹1820
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox">
+                          <label class="form-check-label">
+                            Mar23 Tution Fee : ₹1820
+                          </label>
+                        </div>
+
+
+
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <button type="button" class="btn btn-sm btn-outline-dark m-b-xs">Add to Pay</button> -->
+                <!-- <button type="button" class="btn btn-sm btn-outline-success m-b-xs">Paynow</button> -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-6">
+            <div class="card stat-widget">
+              <div class="card-body">
+                <h5 class="card-title">Total Selected </h5>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-warning">
+                        <i data-feather="check"></i>
+                      </div>
+                      <!-- <div class="tr-text">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Term Fee : ₹1820
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                          <label class="form-check-label" for="flexCheckChecked">
+                            April Month Tution Fee : ₹1820
+                          </label>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                              May Month Tution Fee : ₹1820
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                              June Month Tution Fee : ₹1820
+                            </label>
+                          </div>
+                        </div>
+                      </div> -->
+                      <div class="tr-text">
+                        <!-- <a href="#">
+                          <h4>Payble</h4>
+                          <p>15/Jun/2022</p><br>
+                        </a> -->
+                        <h3>₹1,820</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name"> -->
+                <!-- <div class="tr-icon tr-card-icon tr-card-bg-success">
+                        <i data-feather="check"></i>
+                      </div> -->
+                <!-- <div class="tr-text">
+                        <p>Next Due on 15/July/2022</p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+
+                <button type="button" class="btn btn-outline-success btn-sm m-b-xs">Paynow</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card stat-widget">
+              <div class="card-body">
+                <h5 class="card-title">Pay All </h5>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-warning">
+                        <i data-feather="check"></i>
+                      </div>
+                      <div class="tr-text">
+                        <a href="#">
+                          <h4>Payble</h4>
+                          <p>15/Jan/2023</p><br>
+                        </a>
+                        <h3>₹18,200</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <!-- <div class="tr-icon tr-card-icon tr-card-bg-success">
+                        <i data-feather="check"></i>
+                      </div> -->
+                      <div class="tr-text">
+                        <p>Breakdown</p>
+                        <br>
+                        <table style="width: 200px;">
+
+                          <tr>
+                            <td>Quarter 2</td>
+                            <td>₹5,460</td>
+                          </tr>
+                          <tr>
+                            <td>Quarter 3</td>
+                            <td>₹7,280</td>
+                          </tr>
+                          <tr>
+                            <td>Quarter 4</td>
+                            <td>₹5,460</td>
+                          </tr>
+
+                        </table>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button type="button" class="btn btn-outline-success btn-sm m-b-xs">Paynow</button>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+        <!-- <div class="row">
+
+
+
+          <div class="col-md-12 col-lg-4">
+            <div class="card stat-widget">
+              <div class="card-body">
+                <h5 class="card-title">Abeer's Fee Overview</h5>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-warning">
+                        <i data-feather="user"></i>
+                      </div>
+                      <div class="tr-text">
+                        <a href="#">
+                          <h4>Total Fee</h4>
+                        </a>
+                        <p>₹90,000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-success">
+                        <i data-feather="arrow-up-right"></i>
+                      </div>
+                      <div class="tr-text">
+                        <a href="#">
+                          <h4>Paid</h4>
+                        </a>
+                        <p>₹55,000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="transactions-list">
+                  <div class="tr-item">
+                    <div class="tr-company-name">
+                      <div class="tr-icon tr-card-icon tr-card-bg-danger">
+                        <i data-feather="arrow-down-left"></i>
+                      </div>
+                      <div class="tr-text">
+                        <a href="#">
+                          <h4>Payble</h4>
+                        </a>
+                        <p> ₹35,000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-12 col-lg-12">
+            <div class="card table-widget">
+              <div class="card-body">
+                <h5 class="card-title">Upcoming Transaction</h5>
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Transaction ID</th>
+                        <th scope="col">Child Name</th>
+                        <th scope="col">Fee Type</th>
+                        <th scope="col">Amount</th>
+                        <th scope="col">Due Date</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Paid Date</th>
+                        <th scope="col">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>IN1003IN1003&oq</th>
+                        <td>Ravi</td>
+                        <td>Tution Fee <br />Sports Fee</td>
+                        <td>₹₹25000</td>
+                        <td>25/May/2022</td>
+                        <td><span class="badge bg-info">Pending</span></td>
+                        <td>---</td>
+                        <td scope="row">
+                          <a href="#"><span class="badge bg-success p-1"><i data-feather="send"></i></span></a>
+                        </td>
+                      </tr>
+
+
+
+
+
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div> -->
+
+        <div class="row">
+
+          <div class="col-md-12 col-lg-12">
+            <div class="card table-widget">
+              <div class="card-body">
+                <h5 class="card-title">Recent Transaction</h5>
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Transaction ID</th>
+                        <th scope="col">Child Name</th>
+                        <th scope="col">Fee Type</th>
+                        <th scope="col">Amount</th>
+                        <th scope="col">Due Date</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Paid Date</th>
+                        <th scope="col">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+
+
+                      <tr>
+                        <th>IN1003IN1003&oq</th>
+                        <td>Ravi</td>
+                        <td>Tution Fee</td>
+                        <td>₹5,460</td>
+                        <td>15/July/2022</td>
+                        <td><span class="badge bg-danger">Failed</span></td>
+                        <td>22/May/2022</td>
+                        <td scope="row">
+                          <a href="#"><span class="badge bg-info p-1"><i data-feather="file-text"></i></span></a>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <th>IN1003IN1003&oq</th>
+                        <td>Ravi</td>
+                        <td>Admission <br>Term <br>Tution <br>Library <br>Late Fee </td>
+                        <td>₹8,050</td>
+                        <td>15/April/2022</td>
+                        <td><span class="badge bg-success">Paid</span></td>
+                        <td>15/April/2022</td>
+                        <td scope="row">
+                          <a href="#"><span class="badge bg-info p-1"><i data-feather="file-text"></i></span></a>
+                        </td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <!-- Javascripts -->
+    <script src="../../assets/plugins/jquery/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="../../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="../../assets/plugins/perfectscroll/perfect-scrollbar.min.js"></script>
+    <script src="../../assets/js/main.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="School Management Portal for AryaGlobal">
+    <meta name="keywords" content="AryaGurukul, LittleAryans, StMaryHighSchool">
+    <meta name="author" content="ravimehra9911">
+    <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Add a Ward - AryaGlobal</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,800&display=swap" rel="stylesheet">
+    <link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/perfectscroll/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- Theme Styles -->
+    <link href="../../assets/css/main.min.css" rel="stylesheet">
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <div class='loader'>
+        <div class='spinner-grow text-primary' role='status'>
+            <span class='sr-only'>Loading...</span>
+        </div>
+    </div>
+
+    <div class="page-container">
+        <div class="page-header">
+
+            <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+
+                <div class="" id="navbarNav">
+                    <ul class="navbar-nav" id="leftNav">
+                        <li class="nav-item">
+                            <a class="nav-link" id="sidebar-toggle" href="#"><i data-feather="arrow-left"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="logo">
+                    <a class="navbar-brand" href="index.html"></a>
+                </div>
+
+                <div class="" id="headerNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link profile-dropdown" href="#" id="profileDropDown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false"><img
+                                    src="../../assets/images/avatars/profile-image.png" alt=""></a>
+                            <div class="dropdown-menu dropdown-menu-end profile-drop-menu"
+                                aria-labelledby="profileDropDown">
+                                <a class="dropdown-item" href="ParentProfile.html"><i
+                                        data-feather="user"></i>Profile</a>
+                                <a class="dropdown-item" href="ParentLogin.html"><i
+                                        data-feather="log-out"></i>Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+
+        </div>
+
+        <div class="page-sidebar">
+            <ul class="list-unstyled accordion-menu">
+                <li class="sidebar-title">
+                    Main
+                </li>
+                <li>
+                    <a href="#"><i data-feather="home"></i>Dashboard</a>
+                </li>
+                <li>
+                    <a href="Fee.html"><i data-feather="credit-card"></i>Fees</a>
+                </li>
+                <li>
+                    <a href="index.html"><i data-feather="edit"></i>Form<i
+                            class="fas fa-chevron-right dropdown-icon"></i></a>
+                    <ul class="">
+                        <li><a href="#"><i class="far fa-circle"></i>Admission</a></li>
+                        <li><a href="ConversionForm.html"><i class="far fa-circle"></i>Conversion</a></li>
+
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="AddWard.html"><i data-feather="user-plus"></i>Add Ward</a>
+                </li>
+
+                <li class="active-page">
+                    <a href="ParentProfile.html"><i data-feather="user"></i>Profile</a>
+                </li>
+                <li>
+                    <a href="ParentLogin.html"><i data-feather="log-out"></i>Logout</a>
+                </li>
+
+
+            </ul>
+        </div>
+
+        <div class="page-content">
+            <div class="main-wrapper">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="post-header">
+                                    <img src="../../assets/images/avatars/profile-image.png" alt="">
+                                    <div class="post-info">
+                                        <span class="post-author">Ravi Mehra</span><br>
+                                        <span class="post-date">Father</span>
+                                    </div>
+                                </div>
+                                <br>
+                                <ul class="list-unstyled profile-about-list">
+                                    <li><i class="far fa-envelope m-r-xxs"></i>
+                                        <span>ravi.mehra@keyframemedia.in</span>
+                                    </li>
+                                    <li><i class="far fa-compass m-r-xxs"></i>
+                                        <span>Lives in <a href="#">B-304,Batala,Punjab</a></span>
+                                    </li>
+                                    <li><i class="far fa-address-book m-r-xxs"></i>
+                                        <span>+91 9023607749</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Change Password</h5>
+
+                                <form>
+
+                                    <div class="row mb-3">
+                                        <label for="inputPassword3" class="col-sm-4 col-form-label">Current
+                                            Password</label>
+                                        <div class="col-sm-8">
+                                            <input type="password" class="form-control" id="inputPassword2">
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-3">
+                                        <label for="inputPassword3" class="col-sm-4 col-form-label">New Password</label>
+                                        <div class="col-sm-8">
+                                            <input type="password" class="form-control" id="inputPassword3">
+                                        </div>
+                                    </div>
+
+
+                                    <button type="submit" class="btn btn-primary">Update Password</button>
+                                </form>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="col-md-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Profile Setting</h5>
+
+                                <form>
+
+                                    <div class="row">
+                                        <div class="mb-3 col-md-4">
+                                            <div class="form-floating">
+                                                <input type="name" class="form-control" id="floatingInput"
+                                                    placeholder="Name" value="Ravi">
+                                                <label for="floatingInput">First Name</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3 col-md-4">
+                                            <div class="form-floating">
+                                                <input type="name" class="form-control" id="floatingInput"
+                                                    placeholder="Name" value="Kumar">
+                                                <label for="floatingInput">Middle Name</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3 col-md-4">
+                                            <div class="form-floating">
+                                                <input type="name" class="form-control" id="floatingInput"
+                                                    placeholder="Name" value="Mehra">
+                                                <label for="floatingInput">Last Name</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+
+                                        <div class="mb-3 position-relative col-md-6">
+                                            <span class="badge bg-success position-absolute"
+                                                style="z-index: 1; right:30px; top:13px;"><a href="">Verified</a></span>
+                                            <div class="form-floating">
+                                                <input type="email" class="form-control" id="floatingInput"
+                                                    placeholder="name@example.com" value="ravi.mehra@keyframemedia.in">
+                                                <label for="floatingInput">Email address</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3 position-relative col-md-6">
+                                            <span class="badge bg-success position-absolute"
+                                                style="z-index: 1; right:30px; top:13px;"><a href="">Verified</a></span>
+                                            <div class="form-floating">
+                                                <input type="phone" class="form-control" id="floatingInput"
+                                                    value="+91 9023607749">
+                                                <label for="floatingInput">Phone Number</label>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="mb-3 col-md-6">
+                                            <div class="form-floating">
+                                                <input type="address" class="form-control" id="floatingInput"
+                                                    placeholder="street1" value="xyz street 009">
+                                                <label for="floatingInput">Address</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3 col-md-6">
+                                            <div class="form-floating">
+                                                <input type="address2" class="form-control" id="floatingInput"
+                                                    placeholder="street2" value="new street">
+                                                <label for="floatingInput">Address2</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-floating mb-3 col-md-4">
+                                            <select class="form-select" id="floatingSelect">
+                                                <option>Select</option>
+                                                <option value="1">Maharashtra</option>
+                                                <option selected value="2">Pune</option>
+                                                <option value="3">Punjab</option>
+                                            </select>
+                                            <label style="left: 15px;" for="floatingSelect">States</label>
+                                        </div>
+
+                                        <div class="form-floating mb-3 col-md-4">
+                                            <select class="form-select" id="floatingSelect">
+                                                <option>Select</option>
+                                                <option value="1">Kalyan</option>
+                                                <option value="2">Ambernath</option>
+                                                <option selected value="3">Thane</option>
+                                            </select>
+                                            <label style="left: 15px;" for="floatingSelect">City</label>
+                                        </div>
+
+                                        <div class="form-floating mb-3 col-md-4">
+                                            <select class="form-select" id="floatingSelect">
+                                                <option>Select</option>
+                                                <option value="1">143001</option>
+                                                <option selected value="2">143002</option>
+                                                <option value="3">143003</option>
+                                            </select>
+                                            <label style="left: 15px;" for="floatingSelect">Pincode</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="form-floating">
+                                            <input type="phone" class="form-control" id="floatingInput"
+                                                value="513488559523">
+                                            <label for="floatingInput">Aadhar Number</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3 position-relative">
+                                        <span class="badge bg-warning text-dark position-absolute"
+                                            style="z-index: 1; right:9px; top:13px;"><a href="" data-bs-toggle="modal"
+                                                data-bs-target="#getgps">Use
+                                                GPS</a></span>
+                                        <div class="form-floating">
+                                            <input type="googlemap" class="form-control" id="floatingInput"
+                                                placeholder="googlemap" value="Vidyanagari, 100 Feet...">
+                                            <label for="floatingInput">Set Current Location </label>
+                                        </div>
+                                    </div>
+
+                                    <fieldset class="row mb-3">
+                                        <legend class="col-form-label col-md-12 pt-0">Relationship with Child
+                                        </legend>
+                                        <div class="col-md-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="gridRadios"
+                                                    id="gridRadios1" value="option1" checked>
+                                                <label class="form-check-label" for="gridRadios1">
+                                                    Father
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="gridRadios"
+                                                    id="gridRadios2" value="option2">
+                                                <label class="form-check-label" for="gridRadios2">
+                                                    Mother
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="gridRadios"
+                                                    id="gridRadios2" value="option2">
+                                                <label class="form-check-label" for="gridRadios2">
+                                                    Guardian
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+
+                                    <div class="mb-3">
+                                        <label for="formFile" class="form-label">Profile Photo</label>
+                                        <input class="form-control" type="file" id="formFile">
+                                    </div>
+
+
+
+                                    <button type="submit" class="btn btn-primary">Update Profile</button>
+                                </form>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+        <!-- Javascripts -->
+        <script src="../../assets/plugins/jquery/jquery-3.4.1.min.js"></script>
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="../../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script src="../../assets/plugins/perfectscroll/perfect-scrollbar.min.js"></script>
+        <script src="../../assets/js/main.min.js"></script>
+</body>
+
+</html>

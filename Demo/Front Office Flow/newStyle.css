@@ -1,0 +1,13 @@
+.studentCards .card-body {
+  padding: 20px !important;
+}
+
+/* ======== Process Tabs ============= */
+
+.processTabs {
+  padding: 0px 30px;
+}
+
+.processTabs .card-body {
+  padding: 15px !important;
+}

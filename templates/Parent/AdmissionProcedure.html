@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="School Management Portal for AryaGlobal">
+    <meta name="keywords" content="AryaGurukul, LittleAryans, StMaryHighSchool">
+    <meta name="author" content="ravimehra9911">
+    <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Admission Form - AryaGlobal</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,800&display=swap" rel="stylesheet">
+    <link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/perfectscroll/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- Theme Styles -->
+    <link href="../../assets/css/main.min.css" rel="stylesheet">
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    <link href="../../assets/css/conversion-steps.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <div class='loader'>
+        <div class='spinner-grow text-primary' role='status'>
+            <span class='sr-only'>Loading...</span>
+        </div>
+    </div>
+
+    <div class="page-container">
+
+        <!--Header-->
+        <div class="page-header">
+
+            <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+
+                <div class="" id="navbarNav">
+                    <ul class="navbar-nav" id="leftNav">
+                        <li class="nav-item">
+                            <a class="nav-link" id="sidebar-toggle" href="#"><i data-feather="arrow-left"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="logo">
+                    <a class="navbar-brand" href="index.html"></a>
+                </div>
+
+                <div class="" id="headerNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link profile-dropdown" href="#" id="profileDropDown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false"><img
+                                    src="../../assets/images/avatars/profile-image.png" alt=""></a>
+                            <div class="dropdown-menu dropdown-menu-end profile-drop-menu"
+                                aria-labelledby="profileDropDown">
+                                <a class="dropdown-item" href="ParentProfile.html"><i
+                                        data-feather="user"></i>Profile</a>
+                                <a class="dropdown-item" href="ParentLogin.html"><i
+                                        data-feather="log-out"></i>Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+
+        </div>
+        <!--End Header-->
+
+        <!--Sidebar-->
+        <div class="page-sidebar">
+            <ul class="list-unstyled accordion-menu">
+                <li class="sidebar-title">
+                    Main
+                </li>
+                <li>
+                    <a href="#"><i data-feather="home"></i>Dashboard</a>
+                </li>
+                <li>
+                    <a href="Fee.html"><i data-feather="credit-card"></i>Fees</a>
+                </li>
+                <li class="active-page">
+                    <a href="index.html"><i data-feather="edit"></i>Form<i
+                            class="fas fa-chevron-right dropdown-icon"></i></a>
+                    <ul>
+                        <li><a href="#"><i class="far fa-circle"></i>Admission</a></li>
+                        <li><a href="ConversionForm.html" class="active"><i class="far fa-circle"></i>Conversion</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="AddWard.html"><i data-feather="user-plus"></i>Add Ward</a>
+                </li>
+
+                <li>
+                    <a href="ParentProfile.html"><i data-feather="user"></i>Profile</a>
+                </li>
+                <li>
+                    <a href="ParentLogin.html"><i data-feather="log-out"></i>Logout</a>
+                </li>
+
+
+            </ul>
+        </div>
+        <!--End Sidebar-->
+
+        <div class="page-content">
+            <div class="main-wrapper">
+
+                <!--Row-->
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body d-md-flex justify-content-around d-flex flex-column ">
+
+                                <a href="AdmissionForm.html"><button type="button"
+                                        class="btn btn-outline-primary mb-2">Form</button></a>
+
+                                <div class="dropdown">
+                                    <button class="btn btn-outline-primary dropdown-toggle mb-2" type="button"
+                                        id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Admission
+                                        Procedure
+                                    </button>
+                                    <ul class="dropdown-menu mt-2" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="AdmissionProcedure.html">Admission
+                                                Procedure</a></li>
+                                        <li><a class="dropdown-item" href="DocumentRequired.html">Documents Required</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="ConversionProcess.html">Conversion</a></li>
+                                    </ul>
+                                </div>
+
+                                <a href="FeeStructure.html">
+                                    <button type="button" class="btn btn-outline-primary mb-2">Fee
+                                        Structure</button></a>
+
+                                <div class="dropdown">
+                                    <button class="btn btn-outline-primary dropdown-toggle mb-2" type="button"
+                                        id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Policies
+                                    </button>
+                                    <ul class="dropdown-menu mt-2" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="SAPolicy.html">S.A. Policy</a></li>
+                                        <li><a class="dropdown-item" href="FeePolicy.html">Fee Policy</a></li>
+                                        <li><a class="dropdown-item" href="PrivacyPolicy.html">Privacy Policy</a></li>
+                                        <li><a class="dropdown-item" href="WithdrawalPolicy.html">Withdrawal Policy</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="ParentCooperationPolicy.html">Parent
+                                                Cooperation Policy</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Row End-->
+
+                <!--Row-->
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Admission Procedure</h4>
+                                <p class="fw-bold">IMPORTANT INFORMATION</p>
+
+                                <p>Dear Parents,<br>
+                                    We are delighted by your interest in AryaGurukul School. Please follow the
+                                    instructions below to ensure that your request for admission is processed
+                                    efficiently.</p>
+
+                                <p class="fw-bold">Enrollment is a four-step process</p>
+                                <ol>
+                                    <li>Application Procedure</li>
+                                    <li>S.A. (Standardised Assessment)</li>
+                                    <li>Meet & Greet Procedure</li>
+                                    <li>Fee Payment & Confirmation of Admission</li>
+                                </ol>
+
+                                <p class="fw-bold">Application Procedure</p>
+
+                                <ul>
+                                    <li>The application procedure involves mandatory filling of the online application
+                                        form and payment of the application fee.</li>
+                                    <li>Once the application has been successfully registered, the parent will receive
+                                        an intimation through SMS /Email bearing the Registration No. which will be used
+                                        for further references</li>
+                                    <li>Only valid and complete applications will be considered for admission</li>
+                                    <li>Admission is subject to vacancy and due process as per the grade applied for.
+                                        Submitting of application for admission does not be construed as admission
+                                        granted.</li>
+                                    <li>In case there is no vacancy, the application may not be processed.
+                                    </li>
+                                    <li>Admission will be confirmed only on completion of each of the following –</li>
+                                    <li>
+                                        <ul>
+                                            <li>The application form must be submitted with the documents stated in the
+                                                form. In case you are unable to submit a required document, the school
+                                                will only accept the incomplete application form against a written
+                                                undertaking that the required documents will be provided within 3
+                                                (three) working days.</li>
+                                            <li>Final admission is subject to physical verification of original
+                                                documents.</li>
+                                            <li>All information must be complete and accurate. In case any false,
+                                                incomplete and/or misleading information is provided, AryaGurukul
+                                                reserves the right not to process the admission form.</li>
+                                            <li>Admissions will be granted subject to payment of fees, completing the
+                                                prescribed admission procedure and acceptance of all rules, policies and
+                                                code of conduct applicable to AryaGurukul students and
+                                                parents/guardians.</li>
+                                            <li>No new admissions are granted in X and XII unless there is any vacancy
+                                                and the child has studied from CBSE only with grades not lower than A1
+                                                (before 31st July).</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <p class="fw-bold">S.A. (Standardised Assessment)</p>
+
+                                <ul>
+                                    <li>Once the application has been successfully registered, the admission Office will
+                                        review your application details. Upon the validity of the application form the
+                                        parent will receive an intimation through SMS /Email bearing the details of S.A.
+                                        (Standardised assessment) for your ward. <a href="SAPolicy.html">(Learn
+                                            more)</a> </li>
+                                </ul>
+
+                                <p class="fw-bold">Meet & Greet Procedure</p>
+
+                                <ul>
+                                    <li>If your ward successfully qualifies in his/her S.A. (Standardised assessment),
+                                        the parent will receive an intimation through SMS/Email bearing the details of
+                                        the meet & greet from the Principal’s Office.</li>
+                                    <li>The parents are requested to carry all physical copies of original documents
+                                        that have been submitted for physical verification by the admission department.
+                                    </li>
+                                </ul>
+
+                                <p class="fw-bold">Fee Payment & Confirmation of Admission </p>
+
+                                <ul>
+                                    <li>The parent then receives an intimation through SMS/Email bearing all the details
+                                        regarding fees.</li>
+                                    <li>Admissions is confirmed subject to payment of fees, completing the prescribed
+                                        admission procedure and acceptance of all rules, policies and code of conduct
+                                        applicable to AryaGurukul students and parents/guardians within three working
+                                        days. (Learn more)</li>
+                                    <li>In case of cancellation of admission after the confirmation and payment of fees
+                                        and before the school commence, admission fee will be deducted.</li>
+                                </ul>
+
+                                <p class="fw-bold">GENERAL INSTRUCTIONS FOR FILLING UP THE REGISTRATION FORM</p>
+
+                                <p>All fields marked with asterisk (*) are mandatory to be filled.</p>
+
+                                <ol>
+                                    <li>Mention the correct
+                                        Date of Birth as per Date of Birth Certificate issued by the municipal
+                                        corporation. No change in Date of Birth shall be allowed later.</li>
+                                    <li>Full name of the
+                                        student, date of birth, permanent address &amp; name of the parents(first,
+                                        middle and last) entered in the form should match the supporting documents like
+                                        Date of Birth Certificate, Aadhaar card, voter Id card, passport etc.</li>
+                                    <li>All sections of this
+                                        Registration Form must be completed in full to be processed. Submission of the
+                                        Registration Form is a request for Admission and does not guarantee Admission.
+                                    </li>
+                                    <li>Please identify one
+                                        parent as Preferred contact for receiving all School communication by SMS,
+                                        E-mail notifications or telephonic communication. (not applicable for Single
+                                        Parent / Guardian)</li>
+                                    <li>One application will
+                                        be accepted per child. Kindly fill all the details including the Board selection
+                                        and preference carefully along with the applicable application processing fee.
+                                        No change(s) will be allowed once the form is submitted.</li>
+                                    <li>Printed copy of the
+                                        Registration Form must be signed by hand by both the Parents / Single parent
+                                        (legally Divorced or having adoption rights) / legal Guardian and submitted with
+                                        documentation as stated. Please refer to the instructions for Parent details for
+                                        Guardianship / Child Custody Policy/Form.</li>
+                                </ol>
+
+                                <p class="fw-bold">Admission Office,<br>Arya Gurukul School</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Row End-->
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Javascripts -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="../../assets/plugins/jquery/jquery-3.4.1.min.js"></script>
+    <script src="../../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../assets/plugins/perfectscroll/perfect-scrollbar.min.js"></script>
+    <script src="../../assets/js/main.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="../../assets/js/steps.js"></script>
+</body>
+
+</html>

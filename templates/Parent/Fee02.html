@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="School Management Portal for AryaGlobal">
+  <meta name="keywords" content="AryaGurukul, LittleAryans, StMaryHighSchool">
+  <meta name="author" content="ravimehra9911">
+  <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <!-- Title -->
+  <title>Fees - AryaGlobal</title>
+
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,800&display=swap" rel="stylesheet">
+  <link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet">
+  <link href="../../assets/plugins/perfectscroll/perfect-scrollbar.css" rel="stylesheet">
+
+  <!-- Theme Styles -->
+  <link href="../../assets/css/main.min.css" rel="stylesheet">
+  <link href="../../assets/css/custom.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <div class='loader'>
+    <div class='spinner-grow text-primary' role='status'>
+      <span class='sr-only'>Loading...</span>
+    </div>
+  </div>
+
+  <div class="page-container">
+
+    <div class="page-header">
+
+      <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+
+        <div class="" id="navbarNav">
+          <ul class="navbar-nav" id="leftNav">
+            <li class="nav-item">
+              <a class="nav-link" id="sidebar-toggle" href="#"><i data-feather="arrow-left"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="logo">
+          <a class="navbar-brand" href="index.html"></a>
+        </div>
+
+        <div class="" id="headerNav">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link profile-dropdown" href="#" id="profileDropDown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"><img src="../../assets/images/avatars/profile-image.png" alt=""></a>
+              <div class="dropdown-menu dropdown-menu-end profile-drop-menu" aria-labelledby="profileDropDown">
+                <a class="dropdown-item" href="ParentProfile.html"><i data-feather="user"></i>Profile</a>
+                <a class="dropdown-item" href="ParentLogin.html"><i data-feather="log-out"></i>Logout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+    </div>
+
+    <div class="page-sidebar">
+
+      <ul class="list-unstyled accordion-menu">
+
+        <li class="sidebar-title">
+          Main
+        </li>
+
+        <li>
+          <a href="#"><i data-feather="home"></i>Dashboard</a>
+        </li>
+
+        <li class="active-page">
+          <a href="Fee.html"><i data-feather="crPay-card"></i>Fees</a>
+        </li>
+
+        <li>
+          <a href="index.html"><i data-feather="Pay"></i>Form<i class="fas fa-chevron-right dropdown-icon"></i></a>
+          <ul class="">
+            <li><a href="#"><i class="far fa-circle"></i>Admission</a></li>
+            <li><a href="ConversionForm.html"><i class="far fa-circle"></i>Conversion</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="AddWard.html"><i data-feather="user-plus"></i>Add Ward</a>
+        </li>
+
+        <li>
+          <a href="ParentProfile.html"><i data-feather="user"></i>Profile</a>
+        </li>
+
+        <li>
+          <a href="ParentLogin.html"><i data-feather="log-out"></i>Logout</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="page-content">
+
+      <div class="main-wrapper">
+
+
+
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-body" style="overflow-x:auto;">
+                <div class="table-responsive">
+                  <table class="table">
+
+                    <thead>
+                      <tr>
+                        <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                        <th scope="col">#</th>
+                        <th scope="col">Acadmic Year</th>
+                        <th scope="col">Grade</th>
+                        <th scope="col">Fee Title</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Amount</th>
+                        <th scope="col">Late Fee</th>
+                        <th scope="col">Deposite</th>
+                        <th scope="col">Balance</th>
+                        <th scope="col">Due Date</th>
+                        <th scope="col">Action</th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      <tr>
+                        <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                        <th scope="row">1</th>
+                        <td>2022-2023</td>
+                        <td>2nd</td>
+                        <td>Admission Fee</td>
+                        <td><span class="badge bg-warning">payble</span></td>
+                        <td>4668</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>15/05/2023</td>
+                        <td><button class="btn btn-primary">Pay</button></td>
+                      </tr>
+
+                      <tr>
+                        <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                        <th scope="row">2</th>
+                        <td>2022-2023</td>
+                        <td>2nd</td>
+                        <td>Caution Money</td>
+                        <td><span class="badge bg-success">paid</span></td>
+                        <td>25000</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>15/05/2023</td>
+                        <td><button class="btn btn-primary">Pay</button></td>
+                      </tr>
+
+                      <tr>
+                        <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                        <th scope="row">3</th>
+                        <td>2022-2023</td>
+                        <td>2nd</td>
+                        <td>1st Quarter Tuition Fee</td>
+                        <td><span class="badge bg-danger">unpaid</span></td>
+                        <td>14004</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>15/05/2023</td>
+                        <td><button class="btn btn-primary">Pay</button></td>
+                      </tr>
+
+                      <tr>
+                        <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                        <th scope="row">4</th>
+                        <td>2022-2023</td>
+                        <td>2nd</td>
+                        <td>1st Quarter Term Fee</td>
+                        <td><span class="badge bg-warning">payble</span></td>
+                        <td>4668</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>15/05/2023</td>
+                        <td><button class="btn btn-primary">Pay</button></td>
+                      </tr>
+
+                      <tr>
+                        <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                        <th scope="row">5</th>
+                        <td>2022-2023</td>
+                        <td>2nd</td>
+                        <td>2nd Quarter Tuition Fee</td>
+                        <td><span class="badge bg-warning">payble</span></td>
+                        <td>14004</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>15/08/2023</td>
+                        <td><button class="btn btn-primary">Pay</button></td>
+                      </tr>
+
+                      <tr>
+                        <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                        <th scope="row">6</th>
+                        <td>2022-2023</td>
+                        <td>2nd</td>
+                        <td>3rd Quarter Tuition Fee</td>
+                        <td><span class="badge bg-warning">payble</span></td>
+                        <td>14004</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>15/11/2023</td>
+                        <td><button class="btn btn-primary">Pay</button></td>
+                      </tr>
+
+                      <tr>
+                        <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                        <th scope="row">7</th>
+                        <td>2022-2023</td>
+                        <td>2nd</td>
+                        <td>3rd Quarter Term Fee</td>
+                        <td><span class="badge bg-warning">payble</span></td>
+                        <td>4668</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>15/11/2023</td>
+                        <td><button class="btn btn-primary">Pay</button></td>
+                      </tr>
+
+                      <tr>
+                        <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                        <th scope="row">8</th>
+                        <td>2022-2023</td>
+                        <td>2nd</td>
+                        <td>4th Quarter Tuition Fee</td>
+                        <td><span class="badge bg-warning">payble</span></td>
+                        <td>14004</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>15/01/2024</td>
+                        <td><button class="btn btn-primary">Pay</button></td>
+                      </tr>
+
+                    </tbody>
+
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        <div class="row">
+
+          <div class="col-md-12 col-lg-12">
+            <div class="card table-widget">
+              <div class="card-body">
+                <h5 class="card-title">Recent Transaction</h5>
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Transaction ID</th>
+                        <th scope="col">Child Name</th>
+                        <th scope="col">Fee Type</th>
+                        <th scope="col">Amount</th>
+                        <th scope="col">Due Date</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Paid Date</th>
+                        <th scope="col">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+
+
+                      <tr>
+                        <th>IN1003IN1003&oq</th>
+
+                        <td>Tution Fee</td>
+                        <td>₹5,460</td>
+                        <td>15/July/2022</td>
+                        <td><span class="badge bg-danger">Failed</span></td>
+                        <td>22/May/2022</td>
+                        <td scope="row">
+                          <a href="#"><span class="badge bg-info p-1"><i data-feather="file-text"></i></span></a>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <th>IN1003IN1003&oq</th>
+
+                        <td>Admission <br>Term <br>Tution <br>Library <br>Late Fee </td>
+                        <td>₹8,050</td>
+                        <td>15/April/2022</td>
+                        <td><span class="badge bg-success">Paid</span></td>
+                        <td>15/April/2022</td>
+                        <td scope="row">
+                          <a href="#"><span class="badge bg-info p-1"><i data-feather="file-text"></i></span></a>
+                        </td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <!-- Javascripts -->
+    <script src="../../assets/plugins/jquery/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="../../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="../../assets/plugins/perfectscroll/perfect-scrollbar.min.js"></script>
+    <script src="../../assets/js/main.min.js"></script>
+</body>
+
+</html>

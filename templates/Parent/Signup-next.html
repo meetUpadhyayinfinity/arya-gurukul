@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="AryaGlobal Group of Schools">
+    <meta name="keywords" content="Admin, Login">
+    <meta name="author" content="ravimehra9911">
+    <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>AryaGlobal-Admin Login</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,800&display=swap" rel="stylesheet">
+    <link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/perfectscroll/perfect-scrollbar.css" rel="stylesheet">
+
+
+
+    <!-- Theme Styles -->
+    <link href="../../assets/css/main.min.css" rel="stylesheet">
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+
+
+</head>
+
+<body class="">
+
+    <div class="container" style="height:100vh;">
+
+        <div class="row justify-content-md-center align-content-center" style="height: 100vh;">
+            <div class="col-md-12 col-lg-8">
+                <div class="card login-box-container">
+                    <div class="card-body">
+                        <div class="authent-logo">
+                            <img src="../../assets/images/AryaGurukul-Nandivali.png" alt="" width="300">
+                        </div>
+                        <div class="authent-text">
+                            <h4>PARENT SIGNUP</h4>
+                        </div>
+
+                        <form>
+                            <div class="row">
+
+                                <div class="mb-3">
+                                    <label for="formFile" class="form-label">User Photo <span
+                                            class="required">*</span></label>
+                                    <input class="form-control" type="file" id="formFile" accept=".jpg,.png,.jpeg" />
+                                    <div class="form-text">
+                                        File Size Should be less than 2Mb. The Image formats
+                                        should
+                                        be
+                                        .jpg or .jpeg.
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="form-floating">
+                                        <input type="name" class="form-control" id="floatingInput" placeholder="Name">
+                                        <label for="floatingInput">First Name</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="form-floating">
+                                        <input type="name" class="form-control" id="floatingInput" placeholder="Name">
+                                        <label for="floatingInput">Middle Name</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="form-floating">
+                                        <input type="name" class="form-control" id="floatingInput" placeholder="Name">
+                                        <label for="floatingInput">Last Name</label>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3 position-relative">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput">Email address</label>
+                                        <span class="position-absolute" style="z-index: 1; right: 7px; top: 7px;">
+                                            <button id="BtnOtp" type="submit" class="btn btn-primary btn-sm">SEND
+                                                OTP</button>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <div class="form-floating">
+                                        <input type="name" class="form-control" id="floatingInput" placeholder="Name">
+                                        <label for="floatingInput">Enter OTP</label>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3 col-md-6">
+                                    <div class="form-floating">
+                                        <input type="address" class="form-control" id="floatingInput"
+                                            placeholder="street1">
+                                        <label for="floatingInput">Address</label>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3 col-md-6">
+                                    <div class="form-floating">
+                                        <input type="address2" class="form-control" id="floatingInput"
+                                            placeholder="street2">
+                                        <label for="floatingInput">Address2</label>
+                                    </div>
+                                </div>
+
+                                <div class="form-floating mb-3 col-md-4">
+                                    <select class="form-select" id="floatingSelect">
+                                        <option selected>Select</option>
+                                        <option value="1">Maharashtra</option>
+                                        <option value="2">Pune</option>
+                                        <option value="3">Punjab</option>
+                                    </select>
+                                    <label for="floatingSelect" style="left: 14px;">States</label>
+                                </div>
+
+                                <div class="form-floating mb-3 col-md-4">
+                                    <select class="form-select" id="floatingSelect">
+                                        <option selected>Select</option>
+                                        <option value="1">Kalyan</option>
+                                        <option value="2">Ambernath</option>
+                                        <option value="3">Thane</option>
+                                    </select>
+                                    <label for="floatingSelect" style="left: 14px;">City</label>
+                                </div>
+
+                                <div class="form-floating mb-3 col-md-4">
+                                    <select class="form-select" id="floatingSelect">
+                                        <option selected>Select</option>
+                                        <option value="1">143001</option>
+                                        <option value="2">143002</option>
+                                        <option value="3">143003</option>
+                                    </select>
+                                    <label for="floatingSelect" style="left: 14px;">Pincode</label>
+                                </div>
+
+                                <div class="mb-3 position-relative">
+                                    <span class="position-absolute" style="z-index: 1; right: 20px; top: 7px;">
+                                        <button id="BtnOtp" type="submit" class="btn btn-primary btn-sm"><a href=""
+                                                data-bs-toggle="modal" data-bs-target="#getgps">Use
+                                                GPS</a></button>
+                                    </span>
+
+                                    <div class="form-floating">
+                                        <input type="googlemap" class="form-control" id="floatingInput"
+                                            placeholder="googlemap" value="Vidyanagari, 100 Feet...">
+                                        <label for="floatingInput">Set Current Location </label>
+                                    </div>
+                                </div>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="getgps" tabindex="-1" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe
+                                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15070.46391972209!2d73.1366118!3d19.2119682!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xee698be6c7203c55!2sArya%20Gurukul!5e0!3m2!1sen!2sin!4v1655210047778!5m2!1sen!2sin"
+                                                    width="350" height="400" style="border:0;" allowfullscreen=""
+                                                    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                                </iframe>
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save Location</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Modal -->
+
+                                <div class="mb-3">
+                                    <button type="submit" class="btn btn-primary w-100"><a href="">Signup</a></button>
+
+
+
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Javascripts -->
+    <script src="../../assets/plugins/jquery/jquery-3.4.1.min.js"></script>
+    <script src="../../assets/plugins/perfectscroll/perfect-scrollbar.min.js"></script>
+    <script src="../../assets/js/main.min.js"></script>
+    <script src="../../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</body>
+
+</html>

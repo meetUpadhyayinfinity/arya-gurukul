@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="School Management Portal for AryaGlobal">
+    <meta name="keywords" content="AryaGurukul, LittleAryans, StMaryHighSchool">
+    <meta name="author" content="ravimehra9911">
+    <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Front Office - AryaGlobal</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,800&display=swap" rel="stylesheet">
+    <link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/perfectscroll/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- Theme Styles -->
+    <link href="../../assets/css/main.min.css" rel="stylesheet">
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    <link href="../../assets/css/conversion-steps.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class='loader'>
+        <div class='spinner-grow text-primary' role='status'>
+            <span class='sr-only'>Loading...</span>
+        </div>
+    </div>
+
+    <div class="page-container">
+        <div class="page-header">
+            <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+
+                <div class="" id="navbarNav">
+                    <ul class="navbar-nav" id="leftNav">
+                        <li class="nav-item">
+                            <a class="nav-link" id="sidebar-toggle" href="#"><i data-feather="arrow-left"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="logo">
+                    <a class="navbar-brand" href="index.html"></a>
+                </div>
+
+                <div class="" id="headerNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link profile-dropdown" href="#" id="profileDropDown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false"><img
+                                    src="../../assets/images/avatars/profile-image.png" alt=""></a>
+
+                            <div class="dropdown-menu dropdown-menu-end profile-drop-menu"
+                                aria-labelledby="profileDropDown">
+                                <a class="dropdown-item" href="Profile.html"><i data-feather="user"></i>Profile</a>
+                                <a class="dropdown-item" href="Login.html"><i data-feather="log-out"></i>Logout</a>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+
+        <div class="page-sidebar">
+            <ul class="list-unstyled accordion-menu">
+                <li class="sidebar-title">
+                    Main
+                </li>
+
+                <li>
+                    <a href="Dashboard.html"><i data-feather="home"></i>Dashboard</a>
+                </li>
+
+                <li>
+                    <a href="#"><i data-feather="edit"></i>Form<i class="fas fa-chevron-right dropdown-icon"></i></a>
+                    <ul class="">
+                        <li><a href="#"><i class="far fa-circle"></i>Admission</a></li>
+                        <li><a href="ConversionForm.html"><i class="far fa-circle"></i>Conversion</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"><i data-feather="database"></i>Form Data<i
+                            class="fas fa-chevron-right dropdown-icon"></i></a>
+                    <ul class="">
+                        <li><a href="#"><i class="far fa-circle"></i>Admission</a></li>
+                        <li><a href="ConversionEntry.html"><i class="far fa-circle"></i>Conversion</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="FrontOffice.html"><i data-feather="inbox"></i>Front Office</a>
+                </li>
+
+                <li>
+                    <a href="FrontOffice.html"><i data-feather="inbox"></i>Accountant</a>
+                </li>
+
+                <li class="sidebar-title">
+                    Other
+                </li>
+
+                <li>
+                    <a href="#"><i data-feather="star"></i>Masters<i class="fas fa-chevron-right dropdown-icon"></i></a>
+                    <ul>
+                        <li><a href="acadmicyear.html"><i class="far fa-circle"></i>Academic Year</a>
+                        </li>
+                        <li><a href="Level.html"><i class="far fa-circle"></i>Level</a></li>
+                        <li><a href="Standard.html"><i class="far fa-circle"></i>Standard</a></li>
+                        <li><a href="Division.html"><i class="far fa-circle"></i>Division</a></li>
+                        <li><a href="#"><i class="far fa-circle"></i>Board</a></li>
+                        <li><a href="#"><i class="far fa-circle"></i>GR Number</a></li>
+                        <li><a href="#"><i class="far fa-circle"></i>Student Confirmation</a></li>
+                        <li><a href="Country.html"><i class="far fa-circle"></i>Country</a></li>
+                        <li><a href="State.html"><i class="far fa-circle"></i>State</a></li>
+                        <li><a href="City.html"><i class="far fa-circle"></i>City</a></li>
+                        <li><a href="Pincode.html"><i class="far fa-circle"></i>Pincode</a></li>
+                        <li><a href="Feekind.html"><i class="far fa-circle"></i>Fee Kind</a></li>
+                        <li><a href="FeeTitle.html"><i class="far fa-circle"></i>Fee Title</a></li>
+                        <li><a href="FeeMap.html"><i class="far fa-circle"></i>Fee Maping</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"><i data-feather="upload"></i>Excel Upload</a>
+                </li>
+                <li>
+                    <a href="Login.html"><i data-feather="log-out"></i>Logout</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="page-content">
+            <div class="main-wrapper">
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card stat-widget" style="background-color: #d9ddfc;">
+                            <div class="card-body">
+                                <h5 class="card-title">All</h5>
+                                <h2>132</h2>
+                                <p>From last week</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card stat-widget" style="background-color: #FAD7DD;">
+                            <div class="card-body">
+                                <h5 class="card-title">Hold</h5>
+                                <h2>132</h2>
+                                <p>From last week</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card stat-widget" style="background-color: #D3FBF9;">
+                            <div class="card-body">
+                                <h5 class="card-title">Pass</h5>
+                                <h2>132</h2>
+                                <p>From last week</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card stat-widget" style="background-color: #FFF5E0;">
+                            <div class="card-body">
+                                <h5 class="card-title">Probationary</h5>
+                                <h2>132</h2>
+                                <p>From last week</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body" style="overflow-x:auto;">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Acadmic Session</th>
+                                                <th scope="col">Student Photo</th>
+                                                <th scope="col">GR No.</th>
+                                                <th scope="col">Grade Applying</th>
+                                                <th scope="col">Presently Study in Grade</th>
+                                                <th scope="col">Presently Study in Section</th>
+                                                <th scope="col">First Name</th>
+                                                <th scope="col">Middle Name</th>
+                                                <th scope="col">Last Name</th>
+                                                <th scope="col">Date of Birth</th>
+                                                <th scope="col">Arrears</th>
+
+                                                <th scope="col">Created on</th>
+                                                <th scope="col">Modified on</th>
+                                                <th scope="col">Status</th>
+                                                <th scope="col">Action </th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>2022-2023</td>
+                                                <td><img src="/assets/images/studentphoto.jpg" width="50" height="50"
+                                                        style="border-radius: 25px;">
+                                                </td>
+                                                <td>2856</td>
+                                                <td>4th</td>
+                                                <td>3rd</td>
+                                                <td>B</td>
+                                                <td>Abeer</td>
+                                                <td>Kumar</td>
+                                                <td>Mehra</td>
+                                                <td>23/08/2016</td>
+                                                <td>₹ 15,000</td>
+
+                                                <td>23/06/2022 13:45:55</td>
+                                                <td>23/06/2022 13:45:55</td>
+                                                <td> <select class="form-select">
+                                                        <option selected disabled value="">-select-</option>
+                                                        <option>Hold</option>
+                                                        <option>Pass</option>
+                                                        <option>Prob.</option>
+                                                    </select></td>
+                                                <td><button class="btn btn-primary mb-2">Update</button><button
+                                                        class="btn btn-primary"><a href="FormView.html"
+                                                            target="_blank">View</a></button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>2022-2023</td>
+                                                <td><img src="/assets/images/studentphoto.jpg" width="50" height="50"
+                                                        style="border-radius: 25px;">
+                                                </td>
+                                                <td>2856</td>
+                                                <td>4th</td>
+                                                <td>3rd</td>
+                                                <td>B</td>
+                                                <td>Abeer</td>
+                                                <td>Kumar</td>
+                                                <td>Mehra</td>
+                                                <td>23/08/2016</td>
+                                                <td>₹ 0</td>
+
+                                                <td>23/06/2022 13:45:55</td>
+                                                <td>23/06/2022 13:45:55</td>
+                                                <td> <select class="form-select" style="width:100px;">
+                                                        <option selected disabled value="">-select-</option>
+                                                        <option>Hold</option>
+                                                        <option>Pass</option>
+                                                        <option>Prob.</option>
+                                                    </select></td>
+                                                <td><button class="btn btn-primary mb-2">Update</button><button
+                                                        class="btn btn-primary">View</button></td>
+                                            </tr>
+
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>2022-2023</td>
+                                                <td><img src="/assets/images/studentphoto.jpg" width="50" height="50"
+                                                        style="border-radius: 25px;">
+                                                </td>
+                                                <td>2856</td>
+                                                <td>4th</td>
+                                                <td>3rd</td>
+                                                <td>B</td>
+                                                <td>Abeer</td>
+                                                <td>Kumar</td>
+                                                <td>Mehra</td>
+                                                <td>23/08/2016</td>
+                                                <td>₹ 5,000</td>
+                                                <td>23/06/2022 13:45:55</td>
+                                                <td>23/06/2022 13:45:55</td>
+                                                <td> <select class="form-select">
+                                                        <option selected disabled value="">-select-</option>
+                                                        <option>Hold</option>
+                                                        <option>Pass</option>
+                                                        <option>Prob.</option>
+                                                    </select></td>
+                                                <td><button class="btn btn-primary mb-2">Update</button>
+                                                    <button class="btn btn-primary">View</button>
+                                                </td>
+                                            </tr>
+
+
+                                        </tbody>
+
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+        <!-- Javascripts -->
+        <script src="../../assets/plugins/jquery/jquery-3.4.1.min.js"></script>
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="../../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script src="../../assets/plugins/perfectscroll/perfect-scrollbar.min.js"></script>
+        <script src="../../assets/js/main.min.js"></script>
+</body>
+
+</html>

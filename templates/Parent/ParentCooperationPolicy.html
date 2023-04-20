@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="School Management Portal for AryaGlobal">
+    <meta name="keywords" content="AryaGurukul, LittleAryans, StMaryHighSchool">
+    <meta name="author" content="ravimehra9911">
+    <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Admission Form - AryaGlobal</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,800&display=swap" rel="stylesheet">
+    <link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/perfectscroll/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- Theme Styles -->
+    <link href="../../assets/css/main.min.css" rel="stylesheet">
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    <link href="../../assets/css/conversion-steps.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <div class='loader'>
+        <div class='spinner-grow text-primary' role='status'>
+            <span class='sr-only'>Loading...</span>
+        </div>
+    </div>
+
+    <div class="page-container">
+
+        <!--Header-->
+        <div class="page-header">
+
+            <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+
+                <div class="" id="navbarNav">
+                    <ul class="navbar-nav" id="leftNav">
+                        <li class="nav-item">
+                            <a class="nav-link" id="sidebar-toggle" href="#"><i data-feather="arrow-left"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="logo">
+                    <a class="navbar-brand" href="index.html"></a>
+                </div>
+
+                <div class="" id="headerNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link profile-dropdown" href="#" id="profileDropDown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false"><img
+                                    src="../../assets/images/avatars/profile-image.png" alt=""></a>
+                            <div class="dropdown-menu dropdown-menu-end profile-drop-menu"
+                                aria-labelledby="profileDropDown">
+                                <a class="dropdown-item" href="ParentProfile.html"><i
+                                        data-feather="user"></i>Profile</a>
+                                <a class="dropdown-item" href="ParentLogin.html"><i
+                                        data-feather="log-out"></i>Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+
+        </div>
+        <!--End Header-->
+
+        <!--Sidebar-->
+        <div class="page-sidebar">
+            <ul class="list-unstyled accordion-menu">
+                <li class="sidebar-title">
+                    Main
+                </li>
+                <li>
+                    <a href="#"><i data-feather="home"></i>Dashboard</a>
+                </li>
+                <li>
+                    <a href="Fee.html"><i data-feather="credit-card"></i>Fees</a>
+                </li>
+                <li class="active-page">
+                    <a href="index.html"><i data-feather="edit"></i>Form<i
+                            class="fas fa-chevron-right dropdown-icon"></i></a>
+                    <ul>
+                        <li><a href="#"><i class="far fa-circle"></i>Admission</a></li>
+                        <li><a href="ConversionForm.html" class="active"><i class="far fa-circle"></i>Conversion</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="AddWard.html"><i data-feather="user-plus"></i>Add Ward</a>
+                </li>
+
+                <li>
+                    <a href="ParentProfile.html"><i data-feather="user"></i>Profile</a>
+                </li>
+                <li>
+                    <a href="ParentLogin.html"><i data-feather="log-out"></i>Logout</a>
+                </li>
+
+
+            </ul>
+        </div>
+        <!--End Sidebar-->
+
+        <div class="page-content">
+            <div class="main-wrapper">
+
+                <!--Row-->
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body d-flex justify-content-around">
+
+                                <a href="AdmissionForm.html"><button type="button"
+                                        class="btn btn-outline-primary">Form</button></a>
+
+                                <div class="dropdown">
+                                    <button class="btn btn-outline-primary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Admission
+                                        Procedure
+                                    </button>
+                                    <ul class="dropdown-menu mt-2" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="AdmissionProcedure.html">Admission
+                                                Procedure</a></li>
+                                        <li><a class="dropdown-item" href="DocumentRequired.html">Documents Required</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="ConversionProcess.html">Conversion</a></li>
+                                    </ul>
+                                </div>
+
+                                <a href="FeeStructure.html">
+                                    <button type="button" class="btn btn-outline-primary">Fee
+                                        Structure</button></a>
+
+                                <div class="dropdown">
+                                    <button class="btn btn-outline-primary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Policies
+                                    </button>
+                                    <ul class="dropdown-menu mt-2" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="SAPolicy.html">S.A. Policy</a></li>
+                                        <li><a class="dropdown-item" href="FeePolicy.html">Fee Policy</a></li>
+                                        <li><a class="dropdown-item" href="PrivacyPolicy.html">Privacy Policy</a></li>
+                                        <li><a class="dropdown-item" href="WithdrawalPolicy.html">Withdrawal Policy</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="ParentCooperationPolicy.html">Parent
+                                                Cooperation Policy</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Row End-->
+
+                <!--Row-->
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Parent Cooperation Policy</h4>
+
+                                <p class="fw-bold">Dear Parents, <br> Welcome to the academic year 2023 – 2024</p>
+
+                                <ol>
+                                    <li>You are requested to
+                                        cooperate with the Principal and staff for the effective functioning of the
+                                        school and the well-being of child.</li>
+                                    <li>Parents are
+                                        co-educators, so it is essential for you to mould the character of your ward and
+                                        instil discipline.</li>
+                                    <li>In the child’s
+                                        interests, it is very essential for him/her to imbibe self-discipline. The
+                                        teacher will make the child understand that any in-disciplinary act will lead to
+                                        a consequence which the child may have to face. We wish to avoid using the word
+                                        punishments which can harm the child’s self-esteem.</li>
+                                    <li>Students are not
+                                        allowed to leave the school premises during the school hours. Lunch is to be had
+                                        in the school itself.</li>
+                                    <li>The child is not
+                                        permitted to give ‘treats’ to other children in the school premises.</li>
+                                    <li>Each child is
+                                        different. The school and home environment must be congenial for building the
+                                        child’s self-esteem to enable him/ her to confidently take up the challenges
+                                        that come his/her way.</li>
+                                    <li>Pupils are advised to
+                                        speak only in English in order to acquire fluency and command over the spoken
+                                        language.</li>
+                                    <li>Students must wear
+                                        school ID cards daily.</li>
+                                    <li>The remarks made by
+                                        the teacher in the calendar and the answer papers must be signed by the parents.
+                                        Please guide your child accordingly without undue pressure.</li>
+                                    <li>Our school strongly
+                                        discourages private tuition. The teaching program in the school is good enough
+                                        for the students to perform well provided the student pays attention in class
+                                        and knows his/her responsibilities. The habit of self-study and regularity in
+                                        reading, attending school and completing assignments must be encouraged at home.
+                                        Parents should not engage their own school tutors.</li>
+                                    <li>Giving gifts to any
+                                        member of the staff/school authorities is strictly prohibited.</li>
+                                    <li>If a student is found
+                                        to have done damage to the class/school property, the parents/ guardian will
+                                        have to make good the losses.</li>
+                                    <li>Refrain from making
+                                        derogatory remarks/comments about the school/staff in public or in front of your
+                                        children, who are students of the school, because by doing so, the child’s
+                                        attitude towards the school becomes unhealthy.</li>
+                                    <li>Avoid using the
+                                        school as the meeting place for airing your grievances. Please communicate your
+                                        problem in writing if they have to be solved. Avoid anonymous letters.
+                                        Constructive criticism in the interest of the children, with possible solutions
+                                        are welcome.</li>
+                                    <li>Parents cannot
+                                        dictate terms to the School Administration since the Administration has the
+                                        right to say on what terms and conditions they will admit and retain pupils in
+                                        their school. The decision of the school authorities shall be final.</li>
+                                    <li>Do make it a point to
+                                        attend all school functions and the PTC. Your child should know that you are
+                                        interested in his activities. Parents Day Programs enable you to see your child
+                                        exhibit his/her talents on stage and these merits your presence in order to
+                                        encourage him/her.</li>
+                                    <li>Please let the mother
+                                        teacher know of any congenital disorder / physical / psychological or emotional
+                                        problem of your ward to enable the authorities to take care during an emergency.
+                                    </li>
+                                    <li>You are free to talk
+                                        to the mother teachers on any working Friday of the month after taking a prior
+                                        appointment. [02:45 pm to 03:15 pm]</li>
+                                    <li>Parents must notify
+                                        the school in case of change of address or telephone numbers.</li>
+                                    <li>Parents may contact
+                                        the school on the phone numbers listed on the first page of this calendar. But
+                                        please refer to the diary where you may get the information you need.</li>
+                                    <li>Ensure that your ward
+                                        is regular with his work and studies.</li>
+                                    <li>Ensure that you give
+                                        healthy food in your child’s tiffin. Please refer page no.40 article 9C.</li>
+                                    <li>Report cards will not
+                                        be handed over to the fee defaulters.</li>
+                                    <li>Do not give excessive
+                                        money/valuable/expensive stationery etc to your child. The school cannot be held
+                                        responsible for any loss of the same.</li>
+                                    <li>The child should
+                                        report to school at least 10 minutes before the bell.</li>
+                                    <li>The school has a
+                                        primary health care centre to take care of the children who may develop a health
+                                        problem in school.</li>
+                                    <li>If the child has an
+                                        injury/accident in school, First Aid is given at the school Health Care Centre.
+                                        If it is serious, the parent is informed. In an emergency, the child may be
+                                        immediately hospitalized. Teachers are constantly alert to ensure the safety of
+                                        your child.</li>
+                                    <li>A cumulative file is
+                                        maintained for each child. This is passed on to the successive teachers as the
+                                        child progresses to higher grades. At the end of the child’s tenure in the
+                                        school, parents should ensure that this file is handed over to them.</li>
+                                    <li>Parents attendance
+                                        for the Parent Teachers Conference is obligatory.</li>
+                                    <li>Parents attendance
+                                        for the Parent Teachers Conference is obligatory.</li>
+                                    <li>Parents should use
+                                        the forms provided in the calendar/school diary for communication.</li>
+                                    <li>Do not be a dictator
+                                        to your ward. Try to understand what your ward has to say. In case you need help
+                                        from School/Principal please do not hesitate to communicate. The objective of
+                                        the school is well being of your ward.</li>
+                                    <li>Be a friend,
+                                        philosopher, and a guide to your child.</li>
+                                    <li>Parents can Email
+                                        their queries to the IDs listed on page 2.</li>
+                                    <li>Parents must carry
+                                        the Parent Identity Card during their visit to school.</li>
+                                    <li>Due to second wave of
+                                        COVID-19 pandemic and followed by lockdown Arya Gurukul is imparting education
+                                        to students on REMOTE LEARNING MODE. The ONLINE CLASSROOM is on MICROSOFT TEAMS.
+                                        All the stake holders are oriented and trained to operate the online mode. All
+                                        the teachers are MICROSOFT INNOVATIVE TEACHERS. Many teachers are MICROSOFT
+                                        INNOVATIOVE EDUCATORS-EXPERTS</li>
+                                    <li>Students
+                                        participating in the remote learning model will be expected to attend live
+                                        sessions based on a communicated schedule and be actively involved in those live
+                                        sessions. Classes will not be live streamed all day or for an entire class
+                                        period, but rather will be live in accordance with a communicated schedule.</li>
+                                    <li>Students will
+                                        transition back into-person classes after this temporary remote learning option
+                                        will develop into a hybrid model to blend the best practices of both models.
+                                    </li>
+                                    <li>In selecting
+                                        voluntary remote learning, please recognize that this may be temporary and may
+                                        not be available for the full year, subject to changing conditions.</li>
+                                    <li>Students are unable
+                                        to voluntarily select remote learning for some classes and in person learning
+                                        for other classes.</li>
+                                </ol>
+
+                                <p class="fw-bold">Admission Office,<br>Arya Gurukul School</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Row End-->
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Javascripts -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="../../assets/plugins/jquery/jquery-3.4.1.min.js"></script>
+    <script src="../../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../assets/plugins/perfectscroll/perfect-scrollbar.min.js"></script>
+    <script src="../../assets/js/main.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="../../assets/js/steps.js"></script>
+</body>
+
+</html>

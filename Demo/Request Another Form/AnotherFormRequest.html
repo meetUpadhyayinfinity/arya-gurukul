@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="School Management Portal for AryaGlobal">
+    <meta name="keywords" content="AryaGurukul, LittleAryans, StMaryHighSchool">
+    <meta name="author" content="ravimehra9911">
+    <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Front Office - AryaGlobal</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,800&display=swap" rel="stylesheet">
+    <link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/perfectscroll/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- Theme Styles -->
+    <link href="../../assets/css/main.min.css" rel="stylesheet">
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class='loader'>
+        <div class='spinner-grow text-primary' role='status'>
+            <span class='sr-only'>Loading...</span>
+        </div>
+    </div>
+    <!-- End Loader -->
+
+    <div class="page-container">
+        <!-- header -->
+        <div class="page-header">
+            <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+
+                <div id="navbarNav">
+                    <ul class="navbar-nav" id="leftNav">
+                        <li class="nav-item">
+                            <a class="nav-link" id="sidebar-toggle" href="#"><i data-feather="arrow-left"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="logo">
+                    <a class="navbar-brand" href="index.html"></a>
+                </div>
+
+                <div class="" id="headerNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link profile-dropdown" href="#" id="profileDropDown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false"><img
+                                    src="../../assets/images/avatars/profile-image.png" alt=""></a>
+
+                            <div class="dropdown-menu dropdown-menu-end profile-drop-menu"
+                                aria-labelledby="profileDropDown">
+                                <a class="dropdown-item" href="Profile.html"><i data-feather="user"></i>Profile</a>
+                                <a class="dropdown-item" href="Login.html"><i data-feather="log-out"></i>Logout</a>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+
+        <!-- ======= Sidebar ========== -->
+        <div class="page-sidebar">
+            <ul class="list-unstyled accordion-menu">
+                <li class="sidebar-title">
+                    Main
+                </li>
+
+                <li>
+                    <a href="Dashboard.html"><i data-feather="home"></i>Dashboard</a>
+                </li>
+
+                <li>
+                    <a href="#"><i data-feather="database"></i>Admission</a>
+                </li>
+
+                <li>
+                    <a href="ConversionEntry.html"><i data-feather="database"></i>Conversion</a>
+                </li>
+
+                <li class="sidebar-title">
+                    Other
+                </li>
+
+                <li>
+                    <a href="StaffProfile.html"><i data-feather="user"></i>Profile</a>
+                </li>
+
+                <li>
+                    <a href="ChangePassword.html"><i data-feather="key"></i>Change Password</a>
+                </li>
+
+                <li>
+                    <a href="Login.html"><i data-feather="log-out"></i>Logout</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- Main Page Content -->
+        <div class="page-content">
+            <div class="main-wrapper">
+                <!-- ======== Filter ============= -->
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Another Form Request</h5>
+                                <form class="row g-3">
+
+                                    <div class="col-md-4">
+                                        <label class="form-label">From Date</label>
+                                        <input type="date" class="form-control">
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <label class="form-label">To Date</label>
+                                        <input type="date" class="form-control">
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <label class="form-label">Acadmic Year</label>
+                                        <select class="form-select">
+                                            <option selected disabled value="">-select-</option>
+                                            <option>2020-2021</option>
+                                            <option>2021-2022</option>
+                                            <option>2022-2023</option>
+                                            <option>2023-2024</option>
+                                            <option>2024-2025</option>
+                                            <option>2025-2026</option>
+                                            <option>2026-2027</option>
+                                            <option>2027-2028</option>
+                                            <option>2028-2029</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label class="form-label">Search</label>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <select class="form-select"
+                                                    style="border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
+                                                    <option selected disabled value="">-select-</option>
+                                                    <option value="2">Parents's First Name</option>
+                                                    <option value="3">Parents's Middle Name</option>
+                                                    <option value="4">Parents's Last Name</option>
+                                                    <option value="5">Admission Form Number</option>
+                                                </select>
+                                            </div>
+                                            <input type="text" class="form-control"
+                                                aria-label="Text input with dropdown button">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button class="btn btn-primary " type="submit">Search</button>
+
+                                    </div>
+
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ======== End Filter ========= -->
+
+                <!-- Form Request List  -->
+                <div class="row">
+
+                    <div class="col-md-12 col-lg-12">
+                        <div class="card table-widget">
+                            <div class="card-body">
+                                <h5 class="card-title">Form Request List</h5>
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">UID</th>
+                                                <th scope="col">Parent Name</th>
+                                                <th scope="col">Parent Contact</th>
+                                                <th scope="col">Number of Forms</th>
+                                                <th scope="col">Date</th>
+                                                <th scope="col">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            <tr>
+                                                <th>0001</th>
+                                                <td>Sushant Mehra</td>
+                                                <td>9844543223</td>
+                                                <td>1</td>
+                                                <td>22-2-2023</td>
+                                                <td>
+                                                    <select class="form-select">
+                                                        <option>Hold</option>
+                                                        <option>Approve</option>
+                                                    </select>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <th>0002</th>
+                                                <td>Asma Khan</td>
+                                                <td>9876543223</td>
+                                                <td>2</td>
+                                                <td>24-2-2023</td>
+                                                <td>
+                                                    <select class="form-select">
+
+                                                        <option>Hold</option>
+                                                        <option>Approve</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <th>0004</th>
+                                                <td>Arijit Singh</td>
+                                                <td>7676543221</td>
+                                                <td>1</td>
+                                                <td>25-2-2023</td>
+                                                <td>
+                                                    <select class="form-select">
+
+                                                        <option>Hold</option>
+                                                        <option>Approve</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Form Request List -->
+            </div>
+        </div>
+
+    </div>
+    <!-- Javascripts -->
+    <script src="../../assets/plugins/jquery/jquery-3.4.1.min.js"></script>
+    <script src="../../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../assets/plugins/perfectscroll/perfect-scrollbar.min.js"></script>
+    <script src="../../assets/js/main.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</body>
+
+</html>

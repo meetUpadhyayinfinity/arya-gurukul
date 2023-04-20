@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="School Management Portal for AryaGlobal">
+    <meta name="keywords" content="AryaGurukul, LittleAryans, StMaryHighSchool">
+    <meta name="author" content="ravimehra9911">
+    <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Form View - AryaGlobal</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,800&display=swap" rel="stylesheet">
+    <link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet">
+    <link href="../../assets/plugins/perfectscroll/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- Theme Styles -->
+    <link href="../../assets/css/main.min.css" rel="stylesheet">
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+
+    <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+        integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <style>
+        .formview {
+            width: 1000px;
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class='loader'>
+        <div class='spinner-grow text-primary' role='status'>
+            <span class='sr-only'>Loading...</span>
+        </div>
+    </div>
+
+    <style>
+        p {
+            margin: 0px;
+        }
+    </style>
+
+    <div class="page-container">
+        <div class="formview">
+
+            <div id="element-to-print" class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+
+
+                            <div class="row mb-5 d-flex justify-content-center align-items-center">
+                                <div class="col-6">
+                                    <img src="/assets/images/AryaGurukul-Nandivali.png" width="250">
+                                </div>
+
+
+
+                                <div class="col-6 d-flex justify-content-center align-items-center">
+                                    <h3>Admission Form - 2022</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col bg-dark">
+                                    <p class="h6 m-0 py-2 text-white">Photos</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-3 border-start">
+                                    <img src="/assets/images/studentphoto.jpg" class="rounded" width="100">
+                                    <p class="h6">Student's Photo</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <img src="/assets/images/fatherphoto.jpg" class="rounded" width="100">
+                                    <p class="h6">Father's Photo</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <img src="/assets/images/motherphoto.jpg" class="rounded" width="100">
+                                    <p class="h6">Mother's Photo</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col bg-dark">
+                                    <p class="h6 m-0 py-2 text-white">STUDENT DETAILS</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Are you from ?</p>
+                                    <p class="h6">Litte Aryans</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <h6 class="text-black-50">GR No.</h6>
+                                    <p class="h6">132 | Abeer Mehra</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <h6 class="text-black-50">Academic Session</h6>
+                                    <p class="h6">2022-23</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <h6 class="text-black-50">Grade Applying For</h6>
+                                    <p class="h6">2nd</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">First Name</p>
+                                    <p class="h6">ABEER</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Middle Name</p>
+                                    <p class="h6">KUMAR</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Last Name</p>
+                                    <p class="h6">MEHRA</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Gender</p>
+                                    <p class="h6">Male</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Date of Birth</p>
+                                    <p class="h6">17/Feb/2018</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Place of Birth</p>
+                                    <p class="h6">Batala</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Religion</p>
+                                    <p class="h6">Sikh</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Caste</p>
+                                    <p class="h6">General</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Sub-caste</p>
+                                    <p class="h6">N/A</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Minority Community</p>
+                                    <p class="h6">No</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Admission Category</p>
+                                    <p class="h6">General</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Sibling's GR Number</p>
+                                    <p class="h6">9911</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Employee code</p>
+                                    <p class="h6">Arya3345</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Year of passing</p>
+                                    <p class="h6">2002</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">SEN</p>
+                                    <p class="h6">Specify the problem</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Name of the previous school attended</p>
+                                    <p class="h6">Little Aryans</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">UDISE number of the previous school</p>
+                                    <p class="h6">Arya3345</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Nationality</p>
+                                    <p class="h6">Indian</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Aadhaar card number </p>
+                                    <p class="h6">8989-7867-5645</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Mother tongue</p>
+                                    <p class="h6">Punjabi</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Blood Group</p>
+                                    <p class="h6">B+</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Passport No.</p>
+                                    <p class="h6">N/A</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Is the child adopted?</p>
+                                    <p class="h6">No</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col bg-dark">
+                                    <p class="h6 m-0 py-2 text-white">PARENTS DETAILS</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Are you a Single Parent?</p>
+                                    <p class="h6">No</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Are the Parents Divorced?</p>
+                                    <p class="h6">No</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Custody of the child</p>
+                                    <p class="h6">N/A</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Family Annual Income</p>
+                                    <p class="h6">less than 300000</p>
+                                </div>
+                            </div>
+
+                            <!--Applicant's Mother Details-->
+
+                            <div class="row mb-3">
+                                <div class="col bg-dark">
+                                    <p class="h6 m-0 py-2 text-white">MOTHER'S DETAILS</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">First Name</p>
+                                    <p id="motherFirstName" runat="server" class="h6">Jyoti</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Middle Name</p>
+                                    <p id="motherMiddleName" runat="server" class="h6">Ravi</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Last Name</p>
+                                    <p id="motherLastName" runat="server" class="h6">Makhija</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Date of Birth</p>
+                                    <p id="motherDOB" runat="server" class="h6">23-Aug-1992</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-12 border-start">
+                                    <p class="text-black-50">Education Qualifications</p>
+                                    <p id="motherEdu" runat="server" class="h6">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit.
+                                        Donec blandit nisl in tortor dignissim sagittis.
+                                        Praesent id nibh placerat orci maximus lacinia sit amet congue lectus.
+                                        Maecenas ultrices ex semper luctus blandit.
+                                        Pellentesque at ante mollis, commodo felis nec, sollicitudin risus.</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Occupation </p>
+                                    <p id="motherOccupation" runat="server" class="h6">Doctor</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Designation</p>
+                                    <p id="motherDesgination" runat="server" class="h6">Doctor</p>
+                                </div>
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Organization where you work</p>
+                                    <p id="motherOrgWork" runat="server" class="h6">AryaGlobal Management Pvt. Ltd.</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-12 border-start">
+                                    <p class="text-black-50">Office Address</p>
+                                    <p id="motherOfficeAdd" runat="server" class="h6">Akshya Nagar 1st Block 1st Cross,
+                                        Rammurthy nagar, Bangalore-560016
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Office Contact No. </p>
+                                    <p id="motherOfficeNo" runat="server" class="h6">+91 9023607749</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Email</p>
+                                    <p id="motherEmail" runat="server" class="h6">ravi.mehra@keyframemedi.ain</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Mobile No. </p>
+                                    <p id="motherMobile" runat="server" class="h6">+91 9023607749</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Aadhaar Card Numbaer</p>
+                                    <p id="motherAadharNo" runat="server" class="h6">818148485252</p>
+                                </div>
+
+                            </div>
+
+                            <!--Applicant's Father's Details-->
+
+                            <div class="row mb-3">
+                                <div class="col bg-dark">
+                                    <p class="h6 m-0 py-2 text-white">FATHER'S DETAILS</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">First Name</p>
+                                    <p id="fatherFirstName" runat="server" class="h6">Jyoti</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Middle Name</p>
+                                    <p id="fatherMiddleName" runat="server" class="h6">Ravi</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Last Name</p>
+                                    <p id="fatherLastName" runat="server" class="h6">Makhija</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Date of Birth</p>
+                                    <p id="fatherDOB" runat="server" class="h6">23-Aug-1992</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-12 border-start">
+                                    <p class="text-black-50">Education Qualifications</p>
+                                    <p id="fatherEdu" runat="server" class="h6">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit.
+                                        Donec blandit nisl in tortor dignissim sagittis.
+                                        Praesent id nibh placerat orci maximus lacinia sit amet congue lectus.
+                                        Maecenas ultrices ex semper luctus blandit.
+                                        Pellentesque at ante mollis, commodo felis nec, sollicitudin risus.</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Occupation </p>
+                                    <p id="fatherOccupation" runat="server" class="h6">Doctor</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Designation</p>
+                                    <p id="fatherDesgination" runat="server" class="h6">Doctor</p>
+                                </div>
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Organization where you work</p>
+                                    <p id="fatherOrgWork" runat="server" class="h6">AryaGlobal Management Pvt. Ltd.</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-12 border-start">
+                                    <p class="text-black-50">Office Address</p>
+                                    <p id="fatherOfficeAdd" runat="server" class="h6">Akshya Nagar 1st Block 1st Cross,
+                                        Rammurthy nagar, Bangalore-560016
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Office Contact No. </p>
+                                    <p id="fatherOfficeNo" runat="server" class="h6">+91 9023607749</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Email</p>
+                                    <p id="fatherEmail" runat="server" class="h6">ravi.mehra@keyframemedi.ain</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Mobile No. </p>
+                                    <p id="fatherMobile" runat="server" class="h6">+91 9023607749</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Aadhaar Card Numbaer</p>
+                                    <p id="fatherAadharNo" runat="server" class="h6">818148485252</p>
+                                </div>
+
+                            </div>
+
+
+                            <!--Applicant's GUARDIAN Details-->
+
+                            <div class="row mb-3">
+                                <div class="col bg-dark">
+                                    <p class="h6 m-0 py-2 text-white">GUARDIAN'S DETAILS</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">First Name</p>
+                                    <p id="guardFirstName" runat="server" class="h6">Jyoti</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Middle Name</p>
+                                    <p id="guardMiddleName" runat="server" class="h6">Ravi</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Last Name</p>
+                                    <p id="guardLastName" runat="server" class="h6">Makhija</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Date of Birth</p>
+                                    <p id="guardDOB" runat="server" class="h6">23-Aug-1992</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-12 border-start">
+                                    <p class="text-black-50">Education Qualifications</p>
+                                    <p id="guardEdu" runat="server" class="h6">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit.
+                                        Donec blandit nisl in tortor dignissim sagittis.
+                                        Praesent id nibh placerat orci maximus lacinia sit amet congue lectus.
+                                        Maecenas ultrices ex semper luctus blandit.
+                                        Pellentesque at ante mollis, commodo felis nec, sollicitudin risus.</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Occupation </p>
+                                    <p id="guardOccupation" runat="server" class="h6">Doctor</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Designation</p>
+                                    <p id="guardDesgination" runat="server" class="h6">Doctor</p>
+                                </div>
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Organization where you work</p>
+                                    <p id="guardOrgWork" runat="server" class="h6">AryaGlobal Management Pvt. Ltd.</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-12 border-start">
+                                    <p class="text-black-50">Office Address</p>
+                                    <p id="guardOfficeAdd" runat="server" class="h6">Akshya Nagar 1st Block 1st Cross,
+                                        Rammurthy nagar, Bangalore-560016
+                                    </p>
+                                </div>
+
+
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Office Contact No. </p>
+                                    <p id="guardOfficeNo" runat="server" class="h6">+91 9023607749</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Email</p>
+                                    <p id="guardEmail" runat="server" class="h6">ravi.mehra@keyframemedi.ain</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Mobile No. </p>
+                                    <p id="guardMobile" runat="server" class="h6">+91 9023607749</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Aadhaar Card Numbaer</p>
+                                    <p id="guardAadharNo" runat="server" class="h6">818148485252</p>
+                                </div>
+
+
+                            </div>
+
+                            <!--Address-->
+
+                            <div class="row mb-3">
+                                <div class="col bg-dark">
+                                    <p class="h6 m-0 py-2 text-white">CURRENT RESIDENTIAL ADDRESS</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Address Line 1</p>
+                                    <p id="currAdd1" runat="server" class="h6">xyx xyx kso</p>
+                                </div>
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Address Line 2</p>
+                                    <p id="currAdd2" runat="server" class="h6">Near iiiu pspod iodofui kld</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">City</p>
+                                    <p id="currCity" runat="server" class="h6">Thane</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">State</p>
+                                    <p id="currState" runat="server" class="h6">Punjab</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Pincode</p>
+                                    <p id="currPincode" runat="server" class="h6">143505</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Country</p>
+                                    <p id="currCountry" runat="server" class="h6">India</p>
+                                </div>
+                            </div>
+
+                            <!--Address-->
+
+                            <div class="row mb-3">
+                                <div class="col bg-dark">
+                                    <p class="h6 m-0 py-2 text-white">PERMANENT RESIDENTIAL ADDRESS</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Address Line 1</p>
+                                    <p id="permaAdd1" runat="server" class="h6">xyx xyx kso</p>
+                                </div>
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Address Line 2</p>
+                                    <p id="permaAdd2" runat="server" class="h6">Near iiiu pspod iodofui kld</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">City</p>
+                                    <p id="permaCity" runat="server" class="h6">Thane</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">State</p>
+                                    <p id="permaState" runat="server" class="h6">Punjab</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Pincode</p>
+                                    <p id="permaPincode" runat="server" class="h6">143505</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Country</p>
+                                    <p id="permaCountry" runat="server" class="h6">India</p>
+                                </div>
+                            </div>
+
+                            <!--EMERGENCY COTACT PERSON-->
+
+                            <div class="row mb-3">
+                                <div class="col bg-dark">
+                                    <p class="h6 m-0 py-2 text-white text-uppercase">Emergency Contact Person</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-4 border-start">
+                                    <p class="text-black-50">Name of Person</p>
+                                    <p id="emgNameofpersson" runat="server" class="h6">xyx xyx kso</p>
+                                </div>
+
+                                <div class="col-4 border-start">
+                                    <p class="text-black-50">Relationship with the child</p>
+                                    <p id="emgRelationship" runat="server" class="h6">Near iiiu pspod iodofui kld</p>
+                                </div>
+
+                                <div class="col-4 border-start">
+                                    <p class="text-black-50">Contact Number</p>
+                                    <p id="emgContact" runat="server" class="h6">Near iiiu pspod iodofui kld</p>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-4 border-start">
+                                    <p class="text-black-50">Name of Person</p>
+                                    <p id="emgNameofpersson2" runat="server" class="h6">xyx xyx kso</p>
+                                </div>
+
+                                <div class="col-4 border-start">
+                                    <p class="text-black-50">Relationship with the child</p>
+                                    <p id="emgRelationship2" runat="server" class="h6">Near iiiu pspod iodofui kld</p>
+                                </div>
+
+                                <div class="col-4 border-start">
+                                    <p class="text-black-50">Contact Number</p>
+                                    <p id="emgContact2" runat="server" class="h6">12345678910</p>
+                                </div>
+
+                            </div>
+
+                            <!--MEDICAL INFORMATION-->
+
+                            <div class="row mb-3">
+                                <div class="col-md-12 bg-dark">
+                                    <p class="h6 m-0 py-2 text-white text-uppercase">MEDICAL INFORMATION</p>
+                                </div>
+                                <div class="col-md-12">
+                                    <p class="h6 py-2 text-center"> Medical Examination Report</p>
+                                    <p class="h6 py-2 text-center"> (To be filled by Parent / Guardian of the child)</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Child Name</p>
+                                    <p id="emgNameofpersson2" runat="server" class="h6">ABEER MEHRA</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Grade</p>
+                                    <p id="emgRelationship2" runat="server" class="h6">1st</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Date of Birth</p>
+                                    <p id="emgContact2" runat="server" class="h6">23-Aug-2017</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Gender</p>
+                                    <p id="emgContact2" runat="server" class="h6">Male</p>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Blood Group</p>
+                                    <p id="emgNameofpersson2" runat="server" class="h6">B+</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Height</p>
+                                    <p id="emgRelationship2" runat="server" class="h6">3feet</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Weight</p>
+                                    <p id="emgContact2" runat="server" class="h6">15kg</p>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Tuberculosis </p>
+                                    <p id="Tuberculosis" runat="server" class="h6">NO</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Diabetes </p>
+                                    <p id="Diabetes" runat="server" class="h6">NO</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Rheumatic Fever </p>
+                                    <p id="RheumaticFever" runat="server" class="h6">NO</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Epilepsy </p>
+                                    <p id="Epilepsy" runat="server" class="h6">NO</p>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Hepatits A or B </p>
+                                    <p id="HepatitsAorB" runat="server" class="h6">NO</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Malaria </p>
+                                    <p id="Malaria" runat="server" class="h6">NO</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Chicken - Pox</p>
+                                    <p id="ChickenPox" runat="server" class="h6">NO</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Measles </p>
+                                    <p id="Measles" runat="server" class="h6">NO</p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="row mb-3">
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Mumps </p>
+                                    <p id="Mumps " runat="server" class="h6">NO</p>
+                                </div>
+
+                                <div class="col-3 border-start">
+                                    <p class="text-black-50">Any other Illnessess </p>
+                                    <p id="AnyOtherIllnessess" runat="server" class="h6">NO</p>
+                                </div>
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Please give details including dates.</p>
+                                    <p id="DetailsOfIllnessess" runat="server" class="h6">Lorem ipsum, dolor sit amet
+                                        consectetur adipisicing elit. Aspernatur veniam hic esse itaque laboriosam
+                                        consequatur, dicta facilis architecto cumque voluptate atque fugiat amet sint
+                                        alias magni aut deleniti temporibus laborum.</p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="row mb-3">
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Does the child have any (Eye) Vision Condition? </p>
+                                    <p id="EyeCondition" runat="server" class="h6">YES</p>
+                                    <p class="text-black-50">Details</p>
+                                    <p id="EyeConditionDetails" runat="server" class="h6">Lorem ipsum, dolor sit amet
+                                        consectetur adipisicing elit.</p>
+
+                                </div>
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Does the child have any Dental Condition?</p>
+                                    <p id="DentalCondition" runat="server" class="h6">YES</p>
+                                    <p class="text-black-50">Details</p>
+                                    <p id="DentalConditionDetails" runat="server" class="h6">Lorem ipsum, dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Does the child have any ENT Condition?</p>
+                                    <p id="EntCondition" runat="server" class="h6">NO</p>
+                                    <p class="text-black-50">Details</p>
+                                    <p id="EntConditionDetails" runat="server" class="h6">Lorem ipsum, dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                </div>
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Does the child have any Skin Condition?</p>
+                                    <p id="SkinCondition" runat="server" class="h6">NO</p>
+                                    <p class="text-black-50">Details</p>
+                                    <p id="SkinConditionDetails" runat="server" class="h6">Lorem ipsum, dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Has the child been immunised/vaccinated?</p>
+                                    <p id="Vaccinated" runat="server" class="h6">NO</p>
+                                    <p class="text-black-50">Details</p>
+                                    <p id="VaccinatedDetails" runat="server" class="h6">Lorem ipsum, dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                </div>
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Is the child receiving any long term medication?</p>
+                                    <p id="LongTermMedication" runat="server" class="h6">NO</p>
+                                    <p class="text-black-50">Details</p>
+                                    <p id="LongTermMedicationDetails" runat="server" class="h6">Lorem ipsum, dolor sit
+                                        amet
+                                        consectetur adipisicing elit.</p>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Is the child Physically Challenged?</p>
+                                    <p id="PhysicallyChallenged" runat="server" class="h6">NO</p>
+                                    <p class="text-black-50">Details</p>
+                                    <p id="PhysicallyChallengedDetails" runat="server" class="h6">Lorem ipsum, dolor sit
+                                        amet
+                                        consectetur adipisicing elit.</p>
+                                </div>
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Has your child ever undergone any operation?</p>
+                                    <p id="AnyOperation" runat="server" class="h6">NO</p>
+                                    <p class="text-black-50">Details</p>
+                                    <p id="AnyOperationDetails" runat="server" class="h6">Lorem ipsum, dolor sit
+                                        amet
+                                        consectetur adipisicing elit.</p>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Is the child Physically Challenged?</p>
+                                    <p id="PhysicallyChallenged" runat="server" class="h6">NO</p>
+                                    <p class="text-black-50">Details</p>
+                                    <p id="PhysicallyChallengedDetails" runat="server" class="h6">Lorem ipsum, dolor sit
+                                        amet
+                                        consectetur adipisicing elit.</p>
+                                </div>
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Is your child allergic to any substance?</p>
+                                    <p id="Allergic" runat="server" class="h6">NO</p>
+                                    <p class="text-black-50">Details</p>
+                                    <p id="AllergicDetails" runat="server" class="h6">Lorem ipsum, dolor sit
+                                        amet
+                                        consectetur adipisicing elit.</p>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-3">
+
+                                <div class="col-6 border-start">
+                                    <p class="text-black-50">Considering the amount of time the child spends in school ,
+                                        it is vital for school to have any other essential health related information to
+                                        keep the child safe. Please mention, if any?</p>
+                                    <p id="ChildSafty" runat="server" class="h6">NO</p>
+                                    <p class="text-black-50">Details</p>
+                                    <p id="ChildSaftyDetails" runat="server" class="h6">Lorem ipsum, dolor sit
+                                        amet
+                                        consectetur adipisicing elit.</p>
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-12 border-start">
+                                    <p class="text-black-50"> Read and Agree</p>
+
+                                    <p class="text-black">
+                                        <span>Note</span>:- The parent/guardian is responsible for completing and
+                                        obtaining the
+                                        physician’s statement on the form above. The parent/guardian is requested to
+                                        fill
+                                        the form to the best of their knowledge take a print and have a physician fill
+                                        the
+                                        rest and duly sign it. This is required at the time of meet & greet for physical
+                                        verification by the admission office at Arya Gurukul.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="border border-1 p-3 mb-3">
+                                <p><b>Signature</b></p>
+                                <div class="border border-1">
+                                    <div class="row p-3">
+                                        <div class="col-6 py-2">
+                                            <p>Father:.......................</p>
+                                        </div>
+                                        <div class="col-6 py-2">
+                                            <p>Date:.......................</p>
+                                        </div>
+                                        <div class="col-6 py-2">
+                                            <p>Mother:.......................</p>
+                                        </div>
+                                        <div class="col-6 py-2">
+                                            <p>Place:.......................</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="border border-1 p-3 mb-3 row">
+
+                                <div class="border border-1 col-6">
+                                    <p class="py-2">Doctor Name:..............</p>
+
+                                    <p class="py-2">Contact Numbaer:..........</p>
+
+                                    <p class="py-2">Signature:.................</p>
+
+                                    <p class="py-2">Date:......................</p>
+
+                                    <p class="py-2">Place:......................</p>
+
+                                </div>
+
+                                <div class="border border-1 col-6 align-items-end d-flex justify-content-center">
+                                    <p>(Stamp of Medical Practitioner)</p>
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+
+
+                            <!--IMPORTANT INFORMATION-->
+
+                            <div class="row mb-3">
+                                <div class="col bg-dark">
+                                    <p class="h6 m-0 py-2 text-white">IMPORTANT INFORMATION</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col border-start text-black">
+
+                                    <p>Dear Parents,</p>
+
+                                    <p>
+                                        We are delighted by your
+                                        interest in Arya Gurukul School. Please follow the
+                                        instructions below to ensure that your request for admission
+                                        is processed efficiently.
+                                    </p>
+
+                                    <div>
+                                        <b>
+                                            Enrollment is a four-step
+                                            process
+                                        </b>
+                                    </div>
+
+                                    <ol>
+                                        <li>Application&nbsp;
+                                            Procedure</li>
+                                        <li>S.A. (Standardised
+                                            Assessment)&nbsp; &nbsp;</li>
+                                        <li>Meet &amp; Greet
+                                            Procedure</li>
+                                        <li>Fee Payment&nbsp;
+                                            &amp; Confirmation of Admission</li>
+                                    </ol>
+
+                                    <div>
+                                        <b>Application Procedure</b>
+                                    </div>
+
+                                    <ul>
+                                        <li>Application procedure
+                                            involves mandatory filling of the online application form and payment of
+                                            application fee. </li>
+                                        <li>Once the application
+                                            has been successfully registered, the parent will receive an intimation
+                                            through SMS /Email bearing the Registration No. which will be used for
+                                            further references</li>
+                                        <li>Only valid and
+                                            complete applications will be considered for admission</li>
+                                        <li>Admission is subject
+                                            to vacancy and due process as per the grade applied for. Submitting of
+                                            application for admission does not be construed as admission
+                                            granted.</li>
+                                        <li>In case there is no
+                                            vacancy, the application may not be processed.</li>
+                                        <li>Admission will be
+                                            confirmed only on completion of each of the following </li>
+                                        <ul>
+                                            <li>The application
+                                                form must be submitted with documents stated in the form. In case
+                                                you are unable to submit a required document, the school will only
+                                                accept the incomplete application form against a written undertaking
+                                                that the required documents will be provided within 3 (three)
+                                                working days.</li>
+                                            <li>Final admission is
+                                                subject to physical verification of original documents.</li>
+                                            <li>All information
+                                                must be complete and accurate. In case any false, incomplete and/or
+                                                misleading information is provided, AryaGurukul reserves the right
+                                                not to process the admission form.</li>
+                                            <li>Admissions will be
+                                                granted subject to payment of fees, completing the prescribed
+                                                admission procedure and acceptance of all rules, policies and code
+                                                of conduct applicable to AryaGurukul students and
+                                                parents/guardians.</li>
+                                            <li>No new admissions
+                                                are granted in X and XII unless there is any vacancy and the child
+                                                has studied from CBSE only with grades not lower than A1 (before
+                                                31st July).</li>
+                                        </ul>
+                                    </ul>
+
+                                    <div>
+                                        <b>S.A. (Standardised Assessment)</b>
+                                    </div>
+
+                                    <ul>
+                                        <li>Once the application
+                                            has been successfully registered, the admission Office&nbsp; will
+                                            review
+                                            your application details. Upon the validity of application form the
+                                            parent will receive an intimation through SMS /Email bearing the
+                                            details
+                                            of S.A. (Standardised assessment) for your ward.<b><i><a
+                                                        href="https://aryagurukul.in/online/sa-policy/" target="_blank"
+                                                        rel="noopener noreferrer">(Learn
+                                                        more)</a></i></b></li>
+                                    </ul>
+
+                                    <div>
+                                        <b>Meet &amp; Greet
+                                            Procedure</b>
+                                    </div>
+
+                                    <ul>
+                                        <li>If your ward
+                                            successfully qualifies in his/her S.A. (Standardised assessment),
+                                            the
+                                            parent will receive an intimation through SMS/Email bearing the
+                                            details
+                                            of the meet &amp; greet from the Principal’s Office.&nbsp;</li>
+                                        <li>The parents are
+                                            requested to carry all physical copies of original documents that
+                                            have
+                                            been submitted for physical verification by the admission
+                                            department.</li>
+                                    </ul>
+
+                                    <div><b>Fee Payment &amp; Confirmation of Admission</b></div>
+                                    <ul>
+                                        <li>The parent then
+                                            receives an intimation through SMS/Email bearing all the details
+                                            regarding fees.</li>
+                                        <li>Admissions is
+                                            confirmed subject to payment of fees, completing the prescribed
+                                            admission procedure and acceptance of all rules, policies and code
+                                            of
+                                            conduct applicable to AryaGurukul students and parents/guardians
+                                            within
+                                            three working days.&nbsp;<b><i><a
+                                                        href="https://aryagurukul.in/online/fee-policy/" target="_blank"
+                                                        rel="noopener noreferrer">(Learn
+                                                        more)</a></i></b></li>
+                                    </ul>
+
+
+
+                                </div>
+                            </div>
+
+                            <!--PARENTS INSTRUCTIONS-->
+
+                            <div class="row mb-3">
+                                <div class="col bg-dark">
+                                    <p class="h6 m-0 py-2 text-white">PARENTS INSTRUCTIONS</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col border-start text-black">
+                                    <div>
+                                        <b>
+                                            <p class="text-center">GENERAL INSTRUCTIONS TO ALL PARENTS FOR FILLING
+                                                IN
+                                                THE ADMISSION FORM</p>
+                                        </b>
+
+                                        <ul>
+                                            <li>The admission form requires the details and signature of both
+                                                biological
+                                                or adoptive parents of the applicant.</li>
+                                            <li>You can identify one parent as the "Preferred Contact" for receiving
+                                                all
+                                                school communication by e-mail, or telephone notifications (SMS or
+                                                phone
+                                                calls). In such a case, the "Preferred Contact" will receive school
+                                                communication as per the contact details provided in the admission
+                                                form.
+                                                Non-responding to communications will not bind the school for its
+                                                obligation.</li>
+                                            <li>The admission form may also be filled by a single parent / legal
+                                                guardian having sole custody and care of the child (supported by
+                                                legally
+                                                valid documentation).</li>
+                                            <li>In case of any of the change in marital status and/or change of
+                                                communication details, it is the sole responsibility of parents to
+                                                inform the school immediately of such change through a joint
+                                                application
+                                                signed by both parents with appropriate document reflecting such
+                                                change.
+                                                (See section on separation or divorce)</li>
+                                            <li>In case of death of a parent, the surviving parent is required to
+                                                submit
+                                                the death certificate to the school.</li>
+                                            <li>The school shall have the sole discretion to seek any further
+                                                details/documents (if any) as required.</li>
+                                            <li>In case of any change in the details provided, which in turn
+                                                requires a
+                                                change in the school records, the responsibility of School is
+                                                limited to
+                                                forwarding the application as per school process to the board. The
+                                                school does not guarantee/assure acceptance/update of records.&nbsp;
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <b>
+                                            <p class="text-center">SPECIFIC INSTRUCTIONS FOR SEPARATED/DIVORCED
+                                                PARENTS
+                                                OR SINGLE GUARDIAN</p>
+                                        </b>
+                                        <ul>
+                                            <li>Who can fill in the Admission Form ?<br></li>
+                                            <ul>
+                                                <li>In case of joint custody, both parents must sign the Admission
+                                                    Form
+                                                    jointly.<br></li>
+                                                <li>In case of sole custody, Admission Form must be filled by the
+                                                    parent
+                                                    having legal custody of the child. (Please note: information
+                                                    regarding the parent without custodial rights is also required
+                                                    and
+                                                    may be filled by the parent with custodial rights filling the
+                                                    form
+                                                    or directly by the parent without custodial rights)<br></li>
+                                                <li>A guardian may fill and sign the Admission Form in case the
+                                                    parents
+                                                    are deceased or are unable to complete the forms and care of the
+                                                    child has been placed in care of a guardian by law or otherwise.
+                                                    Please ensure that the guardian's role and relationship is
+                                                    specified
+                                                    and supported by documentation where applicable.<br></li>
+                                            </ul>
+                                            <li>Documents to be submitted with the Admission Form<br></li>
+                                            <ul>
+                                                <li>Certified true copies of legal documents confirming legal status
+                                                    as
+                                                    single parent, or legally separated/ divorced must be submitted
+                                                    with
+                                                    the Admission Form. (In cases of divorce, parent(s) must submit
+                                                    certified copies of final orders of court at the time of
+                                                    registration)<br></li>
+                                            </ul>
+                                            <li>Who can receive school communication (and other authorization
+                                                instructions to the school)<br></li>
+                                            <ul>
+                                                <li>Providing a safe and nurturing learning environment is a
+                                                    priority at
+                                                    AryaGurukul and the safety and well-being of the child comes
+                                                    first.
+                                                    All instructions on information sharing/communication from
+                                                    school
+                                                    and parent visitation, pick-up/drop off and other issues must be
+                                                    provided in writing and supported by most current or final court
+                                                    orders. The School will acknowledge custody rights of the child
+                                                    only
+                                                    based on court orders. Any instruction requesting the
+                                                    restriction of
+                                                    interaction of one parent with the child or with the school will
+                                                    be
+                                                    accepted if its supported by a valid court order granting or
+                                                    restricting such rights. In case of pending divorce cases,
+                                                    written
+                                                    consent of both parents will be required for anything to do with
+                                                    the
+                                                    child. In case of request for striking out the name of either
+                                                    parent
+                                                    from the record of the School, appropriate court order (s) must
+                                                    be
+                                                    presented to the School granting permission for removal of name
+                                                    of
+                                                    such parent or stating that such parent has relinquished all
+                                                    rights
+                                                    and/or claims over the child.<br></li>
+                                            </ul>
+                                            <li>In the event of legal separation or divorce after admission.<br>
+                                            </li>
+                                            <ul>
+                                                <li>If Registration Form/Admission Form is signed by both the
+                                                    parents
+                                                    and subsequently separation/divorce occurs post admission, then
+                                                    till
+                                                    appropriate court order granting sole custody to one parent to
+                                                    the
+                                                    exclusion of any one parent is provided, the school will
+                                                    continue to
+                                                    communicate with both or with the parent with physical custody
+                                                    of
+                                                    the child, depending on the circumstances and the safety and
+                                                    well-being of the child. Until custody rights are established by
+                                                    court orders, signatures/permission of both parents will be
+                                                    required
+                                                    on documents or communication that requires the consent of both
+                                                    parents. (such as notice of withdrawal or request for transfer
+                                                    certificates)<br></li>
+                                            </ul>
+                                            <li>Visitation rights<br></li>
+                                            <ul>
+                                                <li>School is not a venue to exercise visitation rights, unless
+                                                    otherwise directed by court. The school is a place for learning
+                                                    in
+                                                    safe and secure environment and therefore the child's wishes and
+                                                    best interest will be given prime consideration. Separated
+                                                    parents
+                                                    may please make a note not to involve the school in any marital
+                                                    dispute or with child's custody or withdrawal from school.<br>
+                                                </li>
+                                            </ul>
+                                            <li>Remarriage<br></li>
+                                            <ul>
+                                                <li>In case of remarriage, the school records are not automatically
+                                                    updated unless: -<br></li>
+                                                <ul>
+                                                    <li>a joint application is made by the parents on record
+                                                        requesting
+                                                        for the inclusion of the new spouse and with clear
+                                                        instructions
+                                                        on communications, pick-up/drop offs, PTMs and other school
+                                                        events etc. or<br></li>
+                                                    <li>an attested copy of a registered legal joint adoption deed
+                                                        or
+                                                        remarriage proof is submitted confirming the facts and
+                                                        request
+                                                        for name change (if any). or<br></li>
+                                                    <li>if such application is supported with either court
+                                                        orders.<br>
+                                                    </li>
+                                                </ul>
+                                            </ul>
+                                            <li>Updating school records<br></li>
+                                            <ul>
+                                                <li>Parents are solely responsible for updating the school records
+                                                    and
+                                                    ensuring that the updated records are accurate and functioning.
+                                                    The
+                                                    school will not be responsible for its inability to reach a
+                                                    parent
+                                                    or if a parent does not receive any school communication due to
+                                                    inaccurate or outdated contact details. The school will not be
+                                                    liable for any consequences resulting from situations.<br></li>
+                                            </ul>
+                                        </ul>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <!--Declartion-->
+
+                            <div class="row mb-3">
+                                <div class="col bg-dark">
+                                    <p class="h6 m-0 py-2 text-white text-uppercase">Declartion</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col border-start text-black">
+                                    <div>
+                                        <ol>
+                                            <li>I/We hereby solemnly declare that the particulars furnished by me in
+                                                the
+                                                application
+                                                form for admission, here before are true and correct. <br></li>
+                                            <li>I/We have been informed about the fees structure and we agree that
+                                                we
+                                                shall pay the
+                                                prescribed and permitted fees regularly without dispute of any kind
+                                                whatsoever. We
+                                                shall not default the payment of fees, in case of default of any
+                                                nature,
+                                                we agree to
+                                                pay the penalty or actions as per the terms &amp; conditions
+                                                prescribed
+                                                in the fee
+                                                policy.<br></li>
+                                            <li>I/We abide by all the rules and regulations of the school mentioned
+                                                in
+                                                the school
+                                                calendar/diary.<br></li>
+                                            <li>I/We also agree that the school authority shall be entitled to stop
+                                                my
+                                                child from
+                                                attending the school in case of default in payments of fees. I agree
+                                                to
+                                                pay the fees
+                                                directly in the bank account of the school or payment modes as shall
+                                                be
+                                                directed by
+                                                the school authorities.<br></li>
+                                            <li>I/We understand that the fees once paid are never refundable under
+                                                any
+                                                circumstances, except excess payment than due. We have been informed
+                                                about the
+                                                fee-structure and only on my/our agreeing to pay the fees, we have
+                                                applied for
+                                                admission.<br></li>
+                                            <li>I /We am/are also informed that the present fee is also subject to
+                                                revision as per
+                                                law. I, therefore, agree to pay the revised fees from time to time.
+                                                Management
+                                                reserves the right to retain the Workbooks / Activity Books /
+                                                Photographs / CDs,
+                                                VCDs, DVD, Pen-drive / Online Material / Any material used by /of
+                                                the
+                                                students in
+                                                the class.<br></li>
+                                            <li>The Management reserves the right to change the Curriculum
+                                                implemented
+                                                from Time to
+                                                Time as the circumstance may require, or as statutorily
+                                                required.<br>
+                                            </li>
+                                            <li>I / We certifies that each part of the application is read carefully
+                                                and
+                                                the
+                                                information inserted herein is true to the best of my knowledge and
+                                                has
+                                                been
+                                                carefully read.<br></li>
+                                            <li>Parents have undergone their double vaccination for COVID. <br></li>
+                                            <li>Parents are willing to vaccinate their children as per any
+                                                government
+                                                advisories.<br></li>
+                                            <li>Parents will follow all the guidelines issued by the school
+                                                authorities/governmental
+                                                advisories in taking precautions.<br></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="row mb-5 ">
+                                <div class="col-6 mb-3 d-flex justify-content-start">
+                                    <p style="padding-right: 10px ;">Front Officer </p>
+                                    <div style="height: 50px; width:200px; border: 1px solid #000000;"></div>
+                                </div>
+                                <div class="col-6 mb-3  d-flex justify-content-end">
+                                    <p style="padding-right: 10px ;">Principal </p>
+                                    <div style="height: 50px; width:200px; border: 1px solid #000000;"></div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-5">
+                                <div class="col d-flex justify-content-end">
+                                    <button onclick="window.html2pdf(element);" class="btn btn-info">Print</button>
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var element = document.getElementById('element-to-print');
+
+    </script>
+
+
+    <!-- Javascripts -->
+    <script src="../../assets/plugins/jquery/jquery-3.4.1.min.js"></script>
+    <script src="../../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../assets/plugins/perfectscroll/perfect-scrollbar.min.js"></script>
+    <script src="../../assets/js/main.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</body>
+
+</html>
