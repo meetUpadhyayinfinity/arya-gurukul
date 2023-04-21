@@ -1,0 +1,50 @@
+.studentCards .card-body {
+  padding: 20px !important;
+}
+
+/* ======== Process Tabs ============= */
+
+.processTabs {
+  padding: 30px 30px 0px 30px;
+}
+
+.processTabs .card-body {
+  padding: 15px 15px 0px 15px !important;
+  border-radius: 8px;
+  border: 2px solid #d9ddfc;
+  cursor: pointer;
+}
+
+.processTabs .card-body:hover {
+  background-color: #d9ddfc;
+}
+
+.processTabs .card-title {
+  margin-bottom: 14px;
+}
+
+.processTabs .stat-widget h2 {
+  font-size: 20px;
+}
+
+/* ======= Process Sections ========= */
+
+.verificationSection h2,
+.teacherSaSection h2,
+.FeesSection h2 {
+  text-align: center;
+}
+
+/* ============= ConversionFromVerify.php ===================== */
+
+.verifyStudentList {
+  position: relative;
+}
+.table-responsive {
+  z-index: 0;
+}
+
+.backButton i {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
