@@ -174,7 +174,7 @@
                 <div class="card-body" style="overflow-x:auto;">
                     <div class="table-responsive">
                         <table class="table">
-                            <thead>
+                            <thead> 
                                 <tr>
                                     <th scope="col">Acadmic Session</th>
                                     <th scope="col">Grade Applying</th>
