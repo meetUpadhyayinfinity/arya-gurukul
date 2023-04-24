@@ -176,7 +176,7 @@
                             <div class="col-md-4">
                                 <div class="card stat-widget teacherSaTab">
                                     <div class="card-body">
-                                        <h5 class="card-title">Teacher SA, Meet and Greet</h5>
+                                        <h5 class="card-title">SA & Meet and Greet</h5>
                                         <h2>
                                             <div class="card-icon">
                                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
@@ -413,13 +413,13 @@
 
                     </div>
                 </div>
-                <!--  VErification Filter End  -->
+                <!--  Verification Filter End  -->
 
 
                 <!--  TeacherSA Filter Start  -->
                 <div class="card teacherSaFilter">
                     <div class="card-body">
-                        <h5 class="card-title">Teacher SA</h5>
+                        <!-- <h5 class="card-title">Teacher SA</h5> -->
                         <form class="row g-3">
 
                             <div class="col-md-3">
@@ -583,7 +583,7 @@
 
                                 <!-- =========== Teacher SA ================  -->
                                 <div class="teacherSaSection">
-                                    <h2>Teacher SA</h2>
+                                    <h2>SA & Meet and Greet</h2>
                                     <?php include('TeacherSA.php'); ?>
                                 </div>
 

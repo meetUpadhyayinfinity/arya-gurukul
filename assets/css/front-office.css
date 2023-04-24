@@ -48,3 +48,25 @@
   margin-bottom: 15px;
   font-size: 25px;
 }
+
+/* ================ AdmissionCaution.php ================= */
+
+.studentList {
+  position: relative;
+}
+
+.feePayBox {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.feePayBox .card-body {
+  border: 1px solid #c9c9c9;
+  border-radius: 8px;
+}
+
+.feePayBox .studentData {
+  border-bottom: 1px solid #c9c9c9;
+}

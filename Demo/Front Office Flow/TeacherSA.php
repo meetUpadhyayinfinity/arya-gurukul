@@ -29,7 +29,7 @@
 <body>
 
     <!-- ========== SA Remark ============== -->
-    <div class="row">
+    <!-- <div class="row">
         <div class="col">
             <div class="card">
                 <div class="card-body" style="overflow-x:auto;">
@@ -66,115 +66,94 @@
                                     <td>23/08/2016</td>
                                     <td>23/06/2022 13:45:55</td>
                                     <td><span class="badge rounded-pill bg-success">Pass</span></td>
-                                    <!-- <td>
-                                                    <table>
-                                                        <tr>
-                                                            <td>
-                                                                <p><b>English:</b><br />Lorem ipsum dolor sit amet
-                                                                    consectetur adipisicing elit. </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p><b>Math:</b><br />Lorem ipsum dolor sit amet
-                                                                    consectetur adipisicing elit. </p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p><b>Hindi:</b><br />Lorem ipsum dolor sit amet
-                                                                    consectetur adipisicing elit. </p>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td> -->
-                                    <td>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
-                                            non!</p>
-                                    </td>
-                                    <td>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
-                                            non!</p>
-                                    </td>
-                                    <td>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
-                                            non!</p>
-                                    </td>
+                                    
+    <td>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+            non!</p>
+    </td>
+    <td>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+            non!</p>
+    </td>
+    <td>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+            non!</p>
+    </td>
 
-                                    <td style="cursor:pointer"><span class="badge rounded-pill bg-info">View</span></td>
+    <td style="cursor:pointer"><span class="badge rounded-pill bg-info">View</span></td>
 
-                                </tr>
+    </tr>
 
-                                <tr>
-                                    <td>2022-2023</td>
-                                    <td>3rd</td>
-                                    <td>Abeer</td>
-                                    <td>Kumar</td>
-                                    <td>Mehra</td>
-                                    <td>23/08/2016</td>
-                                    <td>23/06/2022 13:45:55</td>
-                                    <td><span class="badge rounded-pill bg-success">Pass</span></td>
+    <tr>
+        <td>2022-2023</td>
+        <td>3rd</td>
+        <td>Abeer</td>
+        <td>Kumar</td>
+        <td>Mehra</td>
+        <td>23/08/2016</td>
+        <td>23/06/2022 13:45:55</td>
+        <td><span class="badge rounded-pill bg-success">Pass</span></td>
 
-                                    <td>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
-                                            non!</p>
-                                    </td>
-                                    <td>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
-                                            non!</p>
-                                    </td>
-                                    <td>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
-                                            non!</p>
-                                    </td>
+        <td>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                non!</p>
+        </td>
+        <td>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                non!</p>
+        </td>
+        <td>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                non!</p>
+        </td>
 
-                                    <td style="cursor:pointer"><span class="badge rounded-pill bg-info">View</span></td>
+        <td style="cursor:pointer"><span class="badge rounded-pill bg-info">View</span></td>
 
-                                </tr>
+    </tr>
 
-                                <tr>
-                                    <td>2022-2023</td>
-                                    <td>3rd</td>
-                                    <td>Ajit </td>
-                                    <td>Manoj</td>
-                                    <td>Yadav</td>
-                                    <td>23/08/2016</td>
-                                    <td>23/06/2022 13:45:55</td>
-                                    <td><span class="badge rounded-pill bg-success">Pass</span></td>
-                                    <td>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
-                                            non!</p>
-                                    </td>
-                                    <td>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
-                                            non!</p>
-                                    </td>
-                                    <td>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
-                                            non!</p>
-                                    </td>
+    <tr>
+        <td>2022-2023</td>
+        <td>3rd</td>
+        <td>Ajit </td>
+        <td>Manoj</td>
+        <td>Yadav</td>
+        <td>23/08/2016</td>
+        <td>23/06/2022 13:45:55</td>
+        <td><span class="badge rounded-pill bg-success">Pass</span></td>
+        <td>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                non!</p>
+        </td>
+        <td>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                non!</p>
+        </td>
+        <td>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
+                non!</p>
+        </td>
 
-                                    <td style="cursor:pointer"><span class="badge rounded-pill bg-info">View</span></td>
+        <td style="cursor:pointer"><span class="badge rounded-pill bg-info">View</span></td>
 
-                                </tr>
-                            </tbody>
+    </tr>
+    </tbody>
 
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </table>
     </div>
+    </div>
+    </div>
+    </div>
+    </div> -->
 
     <!-- ============ Principal Meet and Greet ====================== -->
     <div class="row">
         <div class="col">
             <div class="card">
-                <h2 class="text-center">Principle Meet and Greet</h2>
+                <!-- <h2 class="text-center">Principle Meet and Greet</h2> -->
                 <div class="card-body" style="overflow-x:auto;">
                     <div class="table-responsive">
                         <table class="table">
-                            <thead> 
+                            <thead>
                                 <tr>
                                     <th scope="col">Acadmic Session</th>
                                     <th scope="col">Grade Applying</th>
@@ -193,8 +172,6 @@
                                     </th>
                                     <th scope="col">SA Paper</th>
                                     <th scope="col">Meet and Greet</th>
-                                    <th scope="col">M&G Remark</th>
-                                    <th scope="col">Action</th>
                                 </tr>
                             </thead>
 
@@ -217,11 +194,6 @@
                                         nihil?</td>
                                     <td style="cursor:pointer"><span class="badge rounded-pill bg-info">View</span></td>
                                     <td><span class="badge rounded-pill bg-success">Pass</span></td>
-                                    <td>
-                                        <p>Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit. </p>
-                                    </td>
-                                    <td><button class="btn btn-primary" type="submit">Edit</button></td>
 
                                 </tr>
                             </tbody>

@@ -3,6 +3,7 @@ $(document).ready(function () {
     $('.card .verificationSection').hide();
     $('.card .teacherSaSection').hide();
     $('.card .FeesSection').hide();
+    // Filter
     $('.verifyFilter').hide();
     $('.teacherSaFilter').hide();
     $('.feesFilter').hide();
@@ -14,10 +15,12 @@ $(document).ready(function () {
         $('.verificationSection').show();
         $('.teacherSaSection').hide();
         $('.FeesSection').hide();
+        // Filter
         $('.mainFilter').hide();
-        $('.verifyFilter').show();
-        $('.teacherSaFilter').hide();
+        $('.verifyFilter').hide();
+        $('.teacherSaFilter').show();
         $('.feesFilter').hide();
+        // Buckets
         $('.studentRecordCard').show();
     });
 
@@ -26,10 +29,12 @@ $(document).ready(function () {
         $('.verificationSection').hide();
         $('.teacherSaSection').show();
         $('.FeesSection').hide();
+        // Filter
         $('.mainFilter').hide();
         $('.verifyFilter').hide();
         $('.teacherSaFilter').show();
         $('.feesFilter').hide();
+        // Buckets
         $('.studentRecordCard').hide();
     });
 
@@ -38,10 +43,12 @@ $(document).ready(function () {
         $('.verificationSection').hide();
         $('.teacherSaSection').hide();
         $('.FeesSection').show();
+        // Filter
         $('.mainFilter').hide();
         $('.verifyFilter').hide();
-        $('.teacherSaFilter').hide();
-        $('.feesFilter').show();
+        $('.teacherSaFilter').show();
+        $('.feesFilter').hide();
+        // Buckets
         $('.studentRecordCard').hide();
     });
 });
@@ -59,4 +66,18 @@ verifyButton.addEventListener('click', function () {
 backButton.addEventListener('click', function () {
     conversionForm.style.display = 'none';
     document.querySelector('.verifyStudentList').style.display = 'block';
+});
+
+// ================= Fee Pay Appear ====================
+
+var payFeesButton = document.querySelector('.feePayBtn');
+var feePayBox = document.querySelector('.feePayBox');
+var closeButton = document.querySelector('.closeButton');
+
+payFeesButton.addEventListener('click', function () {
+    feePayBox.style.display = 'block';
+});
+
+closeButton.addEventListener('click', function () {
+    feePayBox.style.display = 'none';
 });

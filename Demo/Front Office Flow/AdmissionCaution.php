@@ -18,6 +18,7 @@
     <link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../assets/plugins/font-awesome/css/all.min.css" rel="stylesheet">
     <link href="../../assets/plugins/perfectscroll/perfect-scrollbar.css" rel="stylesheet">
+    <link href="../../assets/css/front-office.css" rel="stylesheet">
 
     <!-- Theme Styles -->
     <link href="../../assets/css/main.min.css" rel="stylesheet">
@@ -41,7 +42,7 @@
     <!-- ========= Student List =========== -->
     <div class="row">
         <div class="col">
-            <div class="card">
+            <div class="card studentList">
                 <div class="card-body" style="overflow-x:auto;">
                     <div class="table-responsive">
                         <table class="table">
@@ -53,6 +54,7 @@
                                     <th scope="col">Grade </th>
                                     <th scope="col">Section</th>
                                     <th scope="col">Contact</th>
+                                    <th scope="col"></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -63,6 +65,8 @@
                                     <td>3rd</td>
                                     <td>A</td>
                                     <td>923061355</td>
+                                    <td><button class="btn btn-primary feePayBtn" type="submit">Pay Fees</button></td>
+
                                 </tr>
                                 <tr>
                                     <th scope="row"><input type="checkbox"></th>
@@ -71,6 +75,8 @@
                                     <td>2nd</td>
                                     <td>B</td>
                                     <td>923061378</td>
+                                    <td><button class="btn btn-primary feePayBtn" type="submit">Pay Fees</button></td>
+
                                 </tr>
 
                             </tbody>
@@ -84,15 +90,19 @@
     <!-- ========= End Student List ======== -->
 
     <!-- ============ Fee Details Box ============= -->
-    <div class="row">
+    <div class="row feePayBox">
         <div class="col">
             <div class="card">
                 <div class="card-body">
                     <!-- Student Data -->
-                    <table class="table">
+                    <table class="table studentData">
                         <tbody>
                             <tr>
-                                <th scope="row"></th>
+                                <th scope="row">
+                                    <div class="closeButton">
+                                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                                    </div>
+                                </th>
                                 <td>0001</td>
                                 <td>Abeer Kumar Kumar</td>
                                 <td>3rd</td>
@@ -192,18 +202,14 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div id="ContentPlaceHolder1_cheque1" class="col-md-6 mb-3">
-                                    <label class="labelmargin" id="lblchequereceipt">Cheque <span
-                                            style="color: red">*</span></label>
-                                    <input type="file" name="ctl00$ContentPlaceHolder1$flchequereceipt"
-                                        id="flchequereceipt" class="form-control">
+                                    <label class="labelmargin" id="lblchequereceipt">Cheque <span style="color: red">*</span></label>
+                                    <input type="file" name="ctl00$ContentPlaceHolder1$flchequereceipt" id="flchequereceipt" class="form-control">
 
                                 </div>
 
                                 <div id="ContentPlaceHolder1_cheque3" class="col-md-6 mb-3">
-                                    <label class="labelmargin" id="lblchequebank">Select Bank <span
-                                            style="color: red">*</span></label>
-                                    <select name="ctl00$ContentPlaceHolder1$ddlBank" id="ContentPlaceHolder1_ddlBank"
-                                        class="form-select">
+                                    <label class="labelmargin" id="lblchequebank">Select Bank <span style="color: red">*</span></label>
+                                    <select name="ctl00$ContentPlaceHolder1$ddlBank" id="ContentPlaceHolder1_ddlBank" class="form-select">
                                         <option selected="selected" value="0">-Select-</option>
                                         <option value="State Bank Of India">State Bank Of India</option>
                                         <option value="State Bank Of Indore">State Bank Of Indore</option>
@@ -221,33 +227,23 @@
                                 </div>
 
                                 <div id="ContentPlaceHolder1_cheque4" class="col-md-6 mb-3">
-                                    <label class="labelmargin" id="lblBranch">Branch Name <span
-                                            style="color: red">*</span></label>
-                                    <input name="ctl00$ContentPlaceHolder1$txtchequebranch" type="text"
-                                        id="ContentPlaceHolder1_txtchequebranch" placeholder="Enter Branch Name"
-                                        class="form-control">
+                                    <label class="labelmargin" id="lblBranch">Branch Name <span style="color: red">*</span></label>
+                                    <input name="ctl00$ContentPlaceHolder1$txtchequebranch" type="text" id="ContentPlaceHolder1_txtchequebranch" placeholder="Enter Branch Name" class="form-control">
 
                                 </div>
                                 <div id="ContentPlaceHolder1_cheque5" class="col-md-6 mb-3">
-                                    <label class="labelmargin" id="lblChequeIFSC">IFSC Code <span
-                                            style="color: red">*</span></label>
-                                    <input name="ctl00$ContentPlaceHolder1$txtIFSC" type="text"
-                                        id="ContentPlaceHolder1_txtIFSC" class="form-control">
+                                    <label class="labelmargin" id="lblChequeIFSC">IFSC Code <span style="color: red">*</span></label>
+                                    <input name="ctl00$ContentPlaceHolder1$txtIFSC" type="text" id="ContentPlaceHolder1_txtIFSC" class="form-control">
 
                                 </div>
                                 <div id="ContentPlaceHolder1_cheque6" class="col-md-6 mb-3">
-                                    <label class="labelmargin" id="lblChequeNo">Instrument No <span
-                                            style="color: red">*</span></label>
-                                    <input name="ctl00$ContentPlaceHolder1$txtinstrumentNo" type="text"
-                                        id="ContentPlaceHolder1_txtinstrumentNo" placeholder="Enter Cheque No"
-                                        class="form-control">
+                                    <label class="labelmargin" id="lblChequeNo">Instrument No <span style="color: red">*</span></label>
+                                    <input name="ctl00$ContentPlaceHolder1$txtinstrumentNo" type="text" id="ContentPlaceHolder1_txtinstrumentNo" placeholder="Enter Cheque No" class="form-control">
 
                                 </div>
                                 <div id="ContentPlaceHolder1_cheque7" class="col-md-6 mb-3">
-                                    <label class="labelmargin" id="lblChequeDate">Instrument Date <span
-                                            style="color: red">*</span></label>
-                                    <input name="ctl00$ContentPlaceHolder1$dtchequedate" type="date"
-                                        id="ContentPlaceHolder1_dtchequedate" class="form-control">
+                                    <label class="labelmargin" id="lblChequeDate">Instrument Date <span style="color: red">*</span></label>
+                                    <input name="ctl00$ContentPlaceHolder1$dtchequedate" type="date" id="ContentPlaceHolder1_dtchequedate" class="form-control">
 
                                 </div>
 
@@ -269,9 +265,6 @@
     </div>
     <!-- ========== End Fee Details Box =========== -->
 
-
-
-
     <!-- Javascripts -->
     <script src="../../assets/plugins/jquery/jquery-3.4.1.min.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
@@ -279,6 +272,7 @@
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="../../assets/plugins/perfectscroll/perfect-scrollbar.min.js"></script>
     <script src="../../assets/js/main.min.js"></script>
+    <script src="../../assets/js/pages/front-office.js"></script>
 </body>
 
 </html>

@@ -135,15 +135,14 @@
 
 
         <!-- ================ Conversion Form ======================= -->
-        <div class="row conversionForm"
-            style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: white; z-index: 1; padding: 20px; box-sizing: border-box; display: none;">
+        <div class="row conversionForm" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: white; z-index: 1; padding: 20px; box-sizing: border-box; display: none;">
             <div class="col">
                 <div class="card">
                     <div class="card-body">
                         <div class="backButton">
                             <i class="fa fa-arrow-left" aria-hidden="true"></i>
                         </div>
-                        <h5 class="card-title">CONVERSION FORM</h5>
+                        <h5 class="card-title">ADMISSION FORM</h5>
 
                         <div style="margin: 0 auto;">
 
@@ -212,8 +211,7 @@
                                         <div class="col-md-4">
                                             <div class="mb-3">
                                                 <label>Student's GR Number <span class="required">*</span></label>
-                                                <input type="text" class="form-control" placeholder="1234"
-                                                    pattern="[0-9]+" minlength="4" maxlength="6" />
+                                                <input type="text" class="form-control" placeholder="1234" pattern="[0-9]+" minlength="4" maxlength="6" />
                                                 <div class="invalid-feedback">Please enter a GR no.</div>
                                             </div>
                                         </div>
@@ -222,8 +220,7 @@
                                             <div class="mb-3">
                                                 <label class="">Student's First
                                                     Name<span class="required">*</span></label>
-                                                <input type="text" class="form-control" placeholder="First Name"
-                                                    pattern="[a-zA-Z]+" minlength="3" maxlength="20" />
+                                                <input type="text" class="form-control" placeholder="First Name" pattern="[a-zA-Z]+" minlength="3" maxlength="20" />
                                             </div>
                                         </div>
 
@@ -237,16 +234,13 @@
                                         <div class="col-md-4">
                                             <div class="mb-3">
                                                 <label>Student's Last Name<span class="required">*</span></label>
-                                                <input type="text" class="form-control" placeholder="Last Name"
-                                                    pattern="[a-zA-Z]+" minlength="3" maxlength="20" />
+                                                <input type="text" class="form-control" placeholder="Last Name" pattern="[a-zA-Z]+" minlength="3" maxlength="20" />
                                             </div>
                                         </div>
 
                                         <div class="mb-3">
-                                            <label for="formFile" class="form-label">Student's Photo<span
-                                                    class="required">*</span></label>
-                                            <input class="form-control" type="file" id="formFile"
-                                                accept=".jpg,.png,.jpeg" />
+                                            <label for="formFile" class="form-label">Student's Photo<span class="required">*</span></label>
+                                            <input class="form-control" type="file" id="formFile" accept=".jpg,.png,.jpeg" />
                                             <div class="form-text">
                                                 Recent smiling colour photograph of the student's in school
                                                 uniform. File Size Should be less than 2Mb. The Image
@@ -273,15 +267,12 @@
                                         <!--Row Start-->
                                         <div class="mb-3">
                                             <label>Father's Name <span class="required">*</span></label>
-                                            <input type="text" class="form-control" placeholder="Full Name"
-                                                pattern="[a-zA-Z]+" minlength="3" maxlength="50" />
+                                            <input type="text" class="form-control" placeholder="Full Name" pattern="[a-zA-Z]+" minlength="3" maxlength="50" />
                                         </div>
 
                                         <div class="mb-3">
-                                            <label for="formFile" class="form-label">Father's Photo<span
-                                                    class="required">*</span></label>
-                                            <input class="form-control" type="file" id="formFile"
-                                                accept=".jpg,.png,.jpeg" />
+                                            <label for="formFile" class="form-label">Father's Photo<span class="required">*</span></label>
+                                            <input class="form-control" type="file" id="formFile" accept=".jpg,.png,.jpeg" />
                                             <div class="form-text">
                                                 File Size Should be less than 2Mb. The Image formats should
                                                 be .jpg or .jpeg.
@@ -290,15 +281,12 @@
 
                                         <div class="mb-3">
                                             <label>Mother's Name <span class="required">*</span></label>
-                                            <input type="text" class="form-control" placeholder="Full Name"
-                                                pattern="[a-zA-Z]+" minlength="3" maxlength="50" />
+                                            <input type="text" class="form-control" placeholder="Full Name" pattern="[a-zA-Z]+" minlength="3" maxlength="50" />
                                         </div>
 
                                         <div class="mb-3">
-                                            <label for="formFile" class="form-label">Mother's Photo<span
-                                                    class="required">*</span></label>
-                                            <input class="form-control" type="file" id="formFile"
-                                                accept=".jpg,.png,.jpeg" />
+                                            <label for="formFile" class="form-label">Mother's Photo<span class="required">*</span></label>
+                                            <input class="form-control" type="file" id="formFile" accept=".jpg,.png,.jpeg" />
                                             <div class="form-text">
                                                 File Size Should be less than 2Mb. The Image formats should
                                                 be
@@ -309,10 +297,8 @@
                                         <div class="d-grid gap-2 d-flex justify-content-between">
                                             <button type="button" class="btn btn-outline-secondary">SAVE</button>
                                             <div>
-                                                <button type="button"
-                                                    class="btn btn-prev btn-outline-primary">Back</button>
-                                                <button type="button"
-                                                    class="btn btn-next btn-outline-primary">Next</button>
+                                                <button type="button" class="btn btn-prev btn-outline-primary">Back</button>
+                                                <button type="button" class="btn btn-next btn-outline-primary">Next</button>
                                             </div>
                                         </div>
                                         <!--Row End-->
@@ -329,8 +315,7 @@
                                             <div class="mb-3">
                                                 <label>Date of
                                                     Birth<span class="required">*</span></label>
-                                                <input class="form-control" type="date" min="2003-01-01"
-                                                    max="2020-12-31" />
+                                                <input class="form-control" type="date" min="2003-01-01" max="2020-12-31" />
                                             </div>
                                         </div>
 
@@ -471,8 +456,7 @@
                                             <div class="mb-3">
                                                 <label>Student's aadhaar card number
                                                     <span class="required">*</span></label>
-                                                <input type="text" class="form-control" placeholder="1234"
-                                                    pattern="[0-9]+" minlength="12" maxlength="12" />
+                                                <input type="text" class="form-control" placeholder="1234" pattern="[0-9]+" minlength="12" maxlength="12" />
                                                 <div class="invalid-feedback">Please enter a aadhaar card
                                                     no.
                                                 </div>
@@ -483,8 +467,7 @@
                                             <div class="mb-3">
                                                 <label for="formFile" class="form-label">Student's aadhaar
                                                     front<span class="required">*</span></label>
-                                                <input class="form-control" type="file" id="formFile"
-                                                    accept=".jpg,.png,.jpeg" />
+                                                <input class="form-control" type="file" id="formFile" accept=".jpg,.png,.jpeg" />
                                                 <div class="form-text">
                                                     File Size Should be less than 2Mb. The Image formats
                                                     should
@@ -498,8 +481,7 @@
                                             <div class="mb-3">
                                                 <label for="formFile" class="form-label">Student's aadhaar
                                                     back<span class="required">*</span></label>
-                                                <input class="form-control" type="file" id="formFile"
-                                                    accept=".jpg,.png,.jpeg" />
+                                                <input class="form-control" type="file" id="formFile" accept=".jpg,.png,.jpeg" />
                                                 <div class="form-text">
                                                     File Size Should be less than 2Mb. The Image formats
                                                     should be .jpg or .jpeg.
@@ -510,10 +492,8 @@
                                         <div class="d-grid gap-2 d-flex justify-content-between">
                                             <button type="button" class="btn btn-outline-secondary">SAVE</button>
                                             <div>
-                                                <button type="button"
-                                                    class="btn btn-prev btn-outline-primary">Back</button>
-                                                <button type="button"
-                                                    class="btn btn-next btn-outline-primary">Next</button>
+                                                <button type="button" class="btn btn-prev btn-outline-primary">Back</button>
+                                                <button type="button" class="btn btn-next btn-outline-primary">Next</button>
                                             </div>
                                         </div>
                                         <!--Row End-->
@@ -565,8 +545,7 @@
                                         <div class="col-md-4">
                                             <div class="mb-3">
                                                 <label>Pincode <span class="required">*</span></label>
-                                                <input type="text" class="form-control" placeholder="1234"
-                                                    pattern="[0-9]+" minlength="5" maxlength="5" />
+                                                <input type="text" class="form-control" placeholder="1234" pattern="[0-9]+" minlength="5" maxlength="5" />
                                                 <div class="invalid-feedback">Please enter pincode</div>
                                             </div>
                                         </div>
@@ -574,8 +553,7 @@
                                         <div class="col-md-3">
                                             <div class="mb-3">
                                                 <label>Primary Email<span class="required">*</span></label>
-                                                <input type="email" class="form-control"
-                                                    placeholder="name@websit.com" />
+                                                <input type="email" class="form-control" placeholder="name@websit.com" />
                                                 <div class="invalid-feedback">Enter Address Line 1</div>
                                             </div>
                                         </div>
@@ -590,8 +568,7 @@
                                         <div class="col-md-3">
                                             <div class="mb-3">
                                                 <label>Secondary Email</label>
-                                                <input type="email" class="form-control"
-                                                    placeholder="name@websit.com" />
+                                                <input type="email" class="form-control" placeholder="name@websit.com" />
                                                 <div class="invalid-feedback">Enter Address Line 1</div>
                                             </div>
                                         </div>
@@ -606,10 +583,8 @@
                                         <div class="d-grid gap-2 d-flex justify-content-between">
                                             <button type="button" class="btn btn-outline-secondary">SAVE</button>
                                             <div>
-                                                <button type="button"
-                                                    class="btn btn-prev btn-outline-primary">Back</button>
-                                                <button type="button"
-                                                    class="btn btn-next btn-outline-primary">Next</button>
+                                                <button type="button" class="btn btn-prev btn-outline-primary">Back</button>
+                                                <button type="button" class="btn btn-next btn-outline-primary">Next</button>
                                             </div>
                                         </div>
 
@@ -663,10 +638,8 @@
                                             <div class="d-grid gap-2 d-flex justify-content-between">
                                                 <button type="button" class="btn btn-outline-secondary">SAVE</button>
                                                 <div>
-                                                    <button type="button"
-                                                        class="btn btn-prev btn-outline-primary">Back</button>
-                                                    <button type="submit" class="btn btn-outline-success"><a
-                                                            href="FrontOffice01.html">Submit</a></button>
+                                                    <button type="button" class="btn btn-prev btn-outline-primary">Back</button>
+                                                    <button type="submit" class="btn btn-outline-success"><a href="FrontOffice01.html">Submit</a></button>
                                                 </div>
                                             </div>
 
