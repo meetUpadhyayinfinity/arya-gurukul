@@ -65,6 +65,7 @@
 .feePayBox .card-body {
   border: 1px solid #c9c9c9;
   border-radius: 8px;
+  margin-top: 10px;
 }
 
 .feePayBox .studentData {
