@@ -81,3 +81,4 @@ payFeesButton.addEventListener('click', function () {
 closeButton.addEventListener('click', function () {
     feePayBox.style.display = 'none';
 });
+
