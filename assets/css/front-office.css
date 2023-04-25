@@ -2,6 +2,10 @@
   padding: 20px !important;
 }
 
+.studentCards:hover {
+  cursor: pointer;
+}
+
 /* ======== Process Tabs ============= */
 
 .processTabs {

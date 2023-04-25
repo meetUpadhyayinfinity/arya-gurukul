@@ -56,12 +56,9 @@
                 <div class="" id="headerNav">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link profile-dropdown" href="#" id="profileDropDown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false"><img
-                                    src="../../assets/images/avatars/profile-image.png" alt=""></a>
+                            <a class="nav-link profile-dropdown" href="#" id="profileDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="../../assets/images/avatars/profile-image.png" alt=""></a>
 
-                            <div class="dropdown-menu dropdown-menu-end profile-drop-menu"
-                                aria-labelledby="profileDropDown">
+                            <div class="dropdown-menu dropdown-menu-end profile-drop-menu" aria-labelledby="profileDropDown">
                                 <a class="dropdown-item" href="Profile.html"><i data-feather="user"></i>Profile</a>
                                 <a class="dropdown-item" href="Login.html"><i data-feather="log-out"></i>Logout</a>
                             </div>
@@ -93,8 +90,7 @@
                     </li> -->
 
                 <li>
-                    <a href="#"><i data-feather="database"></i>Form Data<i
-                            class="fas fa-chevron-right dropdown-icon"></i></a>
+                    <a href="#"><i data-feather="database"></i>Form Data<i class="fas fa-chevron-right dropdown-icon"></i></a>
                     <ul>
                         <li><a href="#"><i class="far fa-circle"></i>Admission</a></li>
                         <li><a href="ConversionEntry.php"><i class="far fa-circle"></i>Conversion</a></li>
@@ -206,55 +202,6 @@
                 </div>
 
 
-                <!-- Student Record Cards -->
-                <div class="card studentRecordCard">
-                    <div class="card-body studentCards">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="card stat-widget" style="background-color: #d9ddfc;">
-                                    <div class="card-body">
-                                        <h5 class="card-title">New Admissions</h5>
-                                        <h2>120</h2>
-                                        <p>2023-24</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3">
-                                <div class="card stat-widget" style="background-color: #FAD7DD;">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Hold</h5>
-                                        <h2>20</h2>
-                                        <p>2023-24</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3">
-                                <div class="card stat-widget" style="background-color: #D3FBF9;">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Pass</h5>
-                                        <h2>80</h2>
-                                        <p>2023-24</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3">
-                                <div class="card stat-widget" style="background-color: #FFF5E0;">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Probationary</h5>
-                                        <h2>30</h2>
-                                        <p>2023-24</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-
                 <!-- Main Filter  -->
                 <div class="card mainFilter">
                     <div class="card-body">
@@ -316,8 +263,7 @@
                                 <label class="form-label">Search</label>
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
-                                        <select class="form-select"
-                                            style="border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
+                                        <select class="form-select" style="border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
                                             <option selected disabled value="">-select-</option>
                                             <option value="1">Student's First Name</option>
                                             <option value="2">Student's Middle Name</option>
@@ -336,8 +282,7 @@
                                             <option value="16">PinCode</option>
                                         </select>
                                     </div>
-                                    <input type="text" class="form-control"
-                                        aria-label="Text input with dropdown button">
+                                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
                                 </div>
                             </div>
 
@@ -380,8 +325,7 @@
                                 <label class="form-label">Search</label>
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
-                                        <select class="form-select"
-                                            style="border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
+                                        <select class="form-select" style="border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
                                             <option selected disabled value="">-select-</option>
                                             <option value="1">Student's First Name</option>
                                             <option value="2">Student's Middle Name</option>
@@ -399,8 +343,7 @@
                                             <option value="16">PinCode</option>
                                         </select>
                                     </div>
-                                    <input type="text" class="form-control"
-                                        aria-label="Text input with dropdown button">
+                                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
                                 </div>
                             </div>
 
@@ -467,8 +410,7 @@
                                 <label class="form-label">Search</label>
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
-                                        <select class="form-select"
-                                            style="border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
+                                        <select class="form-select" style="border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
                                             <option selected disabled value="">-select-</option>
                                             <option value="1">Student's First Name</option>
                                             <option value="2">Student's Middle Name</option>
@@ -487,8 +429,7 @@
                                             <option value="16">PinCode</option>
                                         </select>
                                     </div>
-                                    <input type="text" class="form-control"
-                                        aria-label="Text input with dropdown button">
+                                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
                                 </div>
                             </div>
 
@@ -535,8 +476,7 @@
                                 <label class="form-label">Search</label>
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
-                                        <select class="form-select"
-                                            style="border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
+                                        <select class="form-select" style="border-top-right-radius: 0px; border-bottom-right-radius: 0px;">
                                             <option selected disabled value="">-select-</option>
                                             <option value="1">Student's First Name</option>
                                             <option value="2">Student's Middle Name</option>
@@ -554,8 +494,7 @@
                                             <option value="16">PinCode</option>
                                         </select>
                                     </div>
-                                    <input type="text" class="form-control"
-                                        aria-label="Text input with dropdown button">
+                                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
                                 </div>
                             </div>
 
@@ -570,6 +509,54 @@
                 </div>
                 <!-- Fees Filter End -->
 
+                <!-- Student Record Cards -->
+                <div class="card studentRecordCard">
+                    <div class="card-body studentCards">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card stat-widget newAdmissionTab" style="background-color: #d9ddfc;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">New Admissions</h5>
+                                        <h2>12</h2>
+                                        <p>2023-24</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="card stat-widget holdTab" style="background-color: #FAD7DD;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Hold</h5>
+                                        <h2>4</h2>
+                                        <p>2023-24</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="card stat-widget passTab" style="background-color: #D3FBF9;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pass</h5>
+                                        <h2>5</h2>
+                                        <p>2023-24</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="card stat-widget probationartyTab" style="background-color: #FFF5E0;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Probationary</h5>
+                                        <h2>3</h2>
+                                        <p>2023-24</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
                 <!-- ==================== Section Changing Screen ================== -->
                 <div class="row">
                     <div class="col">
@@ -577,7 +564,7 @@
                             <div class="card-body">
                                 <!-- ========== Verrify Tabs =============== -->
                                 <div class="verificationSection">
-                                    <h2>Verification Students List</h2>
+                                    <h2>New Admissions</h2>
                                     <?php include('ConversionFormVerify.php'); ?>
                                 </div>
 

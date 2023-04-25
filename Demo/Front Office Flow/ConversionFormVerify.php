@@ -39,6 +39,7 @@
         <!-- =================== Students List =================== -->
 
         <div class="card-body verifyStudentList" style="overflow-x:auto;">
+
             <div class="table-responsive">
                 <table class="table">
                     <thead>
@@ -54,8 +55,8 @@
                             <th scope="col">Created on</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
+                    <tbody class="admissionStudentList">
+                        <tr class="pass newAdmission">
                             <th scope="row">1</th>
                             <td>2022-2023</td>
 
@@ -73,7 +74,7 @@
                             <td><button class="btn btn-primary mb-2 verifyButton">Verify</button>
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="pass newAdmission">
                             <th scope="row">2</th>
                             <td>2022-2023</td>
 
@@ -91,7 +92,7 @@
                             <td><button class="btn btn-primary mb-2 verifyButton">Verify</button>
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="pass newAdmission">
                             <th scope="row">3</th>
                             <td>2022-2023</td>
 
@@ -108,8 +109,152 @@
                             </td>
                             <td><button class="btn btn-primary mb-2 verifyButton">Verify</button></td>
                         </tr>
-                        <tr>
+                        <tr class="pass newAdmission">
                             <th scope="row">4</th>
+                            <td>2022-2023</td>
+
+                            <td>4th</td>
+                            <td>3rd</td>
+                            <td>Ajit</td>
+                            <td>Yadav</td>
+                            <td>Mehra</td>
+                            <td>23/08/2016</td>
+                            <td>23/06/2022 13:45:55</td>
+
+
+                            <td><button class="btn btn-primary mb-2"><a href="#">View</a></button>
+                            </td>
+                            <td><button class="btn btn-primary mb-2 verifyButton">Verify</button>
+                            </td>
+                        </tr>
+                        <tr class="pass newAdmission">
+                            <th scope="row">5</th>
+                            <td>2022-2023</td>
+
+                            <td>4th</td>
+                            <td>3rd</td>
+                            <td>Ajit</td>
+                            <td>Yadav</td>
+                            <td>Mehra</td>
+                            <td>23/08/2016</td>
+                            <td>23/06/2022 13:45:55</td>
+
+
+                            <td><button class="btn btn-primary mb-2"><a href="#">View</a></button>
+                            </td>
+                            <td><button class="btn btn-primary mb-2 verifyButton">Verify</button>
+                            </td>
+                        </tr>
+                        <tr class="newAdmission probationary">
+                            <th scope="row">6</th>
+                            <td>2022-2023</td>
+
+                            <td>4th</td>
+                            <td>3rd</td>
+                            <td>Ajit</td>
+                            <td>Yadav</td>
+                            <td>Mehra</td>
+                            <td>23/08/2016</td>
+                            <td>23/06/2022 13:45:55</td>
+
+
+                            <td><button class="btn btn-primary mb-2"><a href="#">View</a></button>
+                            </td>
+                            <td><button class="btn btn-primary mb-2 verifyButton">Verify</button>
+                            </td>
+                        </tr>
+                        <tr class="newAdmission probationary">
+                            <th scope="row">7</th>
+                            <td>2022-2023</td>
+
+                            <td>4th</td>
+                            <td>3rd</td>
+                            <td>Ajit</td>
+                            <td>Yadav</td>
+                            <td>Mehra</td>
+                            <td>23/08/2016</td>
+                            <td>23/06/2022 13:45:55</td>
+
+
+                            <td><button class="btn btn-primary mb-2"><a href="#">View</a></button>
+                            </td>
+                            <td><button class="btn btn-primary mb-2 verifyButton">Verify</button>
+                            </td>
+                        </tr>
+                        <tr class="newAdmission probationary">
+                            <th scope="row">8</th>
+                            <td>2022-2023</td>
+
+                            <td>4th</td>
+                            <td>3rd</td>
+                            <td>Ajit</td>
+                            <td>Yadav</td>
+                            <td>Mehra</td>
+                            <td>23/08/2016</td>
+                            <td>23/06/2022 13:45:55</td>
+
+
+                            <td><button class="btn btn-primary mb-2"><a href="#">View</a></button>
+                            </td>
+                            <td><button class="btn btn-primary mb-2 verifyButton">Verify</button>
+                            </td>
+                        </tr>
+                        <tr class="newAdmission hold">
+                            <th scope="row">9</th>
+                            <td>2022-2023</td>
+
+                            <td>4th</td>
+                            <td>3rd</td>
+                            <td>Ajit</td>
+                            <td>Yadav</td>
+                            <td>Mehra</td>
+                            <td>23/08/2016</td>
+                            <td>23/06/2022 13:45:55</td>
+
+
+                            <td><button class="btn btn-primary mb-2"><a href="#">View</a></button>
+                            </td>
+                            <td><button class="btn btn-primary mb-2 verifyButton">Verify</button>
+                            </td>
+                        </tr>
+                        <tr class="newAdmission hold">
+                            <th scope="row">10</th>
+                            <td>2022-2023</td>
+
+                            <td>4th</td>
+                            <td>3rd</td>
+                            <td>Ajit</td>
+                            <td>Yadav</td>
+                            <td>Mehra</td>
+                            <td>23/08/2016</td>
+                            <td>23/06/2022 13:45:55</td>
+
+
+                            <td><button class="btn btn-primary mb-2"><a href="#">View</a></button>
+                            </td>
+                            <td><button class="btn btn-primary mb-2 verifyButton">Verify</button>
+                            </td>
+                        </tr>
+                        <tr class="newAdmission hold">
+                            <th scope="row">11</th>
+                            <td>2022-2023</td>
+
+                            <td>4th</td>
+                            <td>3rd</td>
+                            <td>Ajit</td>
+                            <td>Yadav</td>
+                            <td>Mehra</td>
+                            <td>23/08/2016</td>
+                            <td>23/06/2022 13:45:55</td>
+
+
+                            <td><button class="btn btn-primary mb-2"><a href="#">View</a></button>
+                            </td>
+                            <td><button class="btn btn-primary mb-2 verifyButton">Verify</button>
+                            </td>
+                        </tr>
+                        <tr class="newAdmission hold">
+                            <th scope="row">12</th>
                             <td>2022-2023</td>
 
                             <td>4th</td>
@@ -134,7 +279,7 @@
         </div>
 
 
-        <!-- ================ Conversion Form ======================= -->
+        <!-- ================ Admission Form ======================= -->
         <div class="row conversionForm" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: white; z-index: 1; padding: 20px; box-sizing: border-box; display: none;">
             <div class="col">
                 <div class="card">

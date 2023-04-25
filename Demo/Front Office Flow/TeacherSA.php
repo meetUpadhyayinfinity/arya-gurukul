@@ -194,7 +194,22 @@
                                         nihil?</td>
                                     <td style="cursor:pointer"><span class="badge rounded-pill bg-info">View</span></td>
                                     <td><span class="badge rounded-pill bg-success">Pass</span></td>
-
+                                </tr>
+                                <tr>
+                                    <td>2022-2023</td>
+                                    <td>3rd</td>
+                                    <td>Ronak</td>
+                                    <td>Kamlesh</td>
+                                    <td>Gala</td>
+                                    <td>23/08/2016</td>
+                                    <td>23/06/2022 13:45:55</td>
+                                    <td><span class="badge rounded-pill bg-success">Pass</span></td>
+                                    <td><span class="badge rounded-pill bg-danger">Hold</span></td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td style="cursor:pointer"><span class="badge rounded-pill bg-info">View</span></td>
+                                    <td><span class="badge rounded-pill bg-danger">Hold</span></td>
                                 </tr>
                             </tbody>
 

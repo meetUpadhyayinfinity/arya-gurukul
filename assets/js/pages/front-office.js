@@ -82,3 +82,56 @@ closeButton.addEventListener('click', function () {
     feePayBox.style.display = 'none';
 });
 
+// ============== Verification Buckets List Filter ================
+
+$(document).ready(function () {
+    // Listen for click events on the tabs
+    $('.newAdmissionTab').click(function () {
+        // Update the text of the h2 element in the verificationSection
+        $('.verificationSection h2').text('New Admissions');
+        // Filter
+        $('.admissionStudentList .pass').show();
+        $('.admissionStudentList .probationary').show();
+        $('.admissionStudentList .hold').show();
+    });
+
+    $('.holdTab').click(function () {
+        $('.verificationSection h2').text('Hold Students');
+        $('.admissionStudentList .pass').hide();
+        $('.admissionStudentList .probationary').hide();
+        $('.admissionStudentList .hold').show();
+    });
+
+    $('.passTab').click(function () {
+        $('.verificationSection h2').text('Pass Students');
+        $('.admissionStudentList .pass').show();
+        $('.admissionStudentList .probationary').hide();
+        $('.admissionStudentList .hold').hide();
+    });
+
+    $('.probationartyTab').click(function () {
+        $('.verificationSection h2').text('Probationarty Students');
+        $('.admissionStudentList .pass').hide();
+        $('.admissionStudentList .probationary').show();
+        $('.admissionStudentList .hold').hide();
+    });
+});
+
+// function filterStudents(tabName) {
+//     // hide all rows first
+//     $('table tbody tr').hide();
+
+//     // show all rows if newAdmissionTab is clicked
+//     if (tabName === 'newAdmission') {
+//         $('table tbody tr').show();
+//     } else {
+//         // show rows according to the tab clicked
+//         $('table tbody tr').each(function () {
+//             var status = $(this).find('td:eq(2)').text();
+//             if (status === tabName) {
+//                 $(this).show();
+//             }
+//         });
+//     }
+// }
+
